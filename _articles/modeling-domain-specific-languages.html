@@ -1,0 +1,24 @@
+---
+title: "Modeling Domain Specific Languages"
+date: 2015-01-12
+description: "How executable models can define the vocabulary, behavior, and runtime population of a language tailored to a particular domain."
+permalink: /modeling-domain-specific-languages/
+source_url: "https://xtuml.github.io/onefactnet/modeling-domain-specific-languages/"
+---
+
+A **domain-specific language (DSL)** is a language shaped around the concepts and activities of a particular field. Rather than requiring users to express their work in general-purpose programming terms, a DSL provides vocabulary that is natural to the domain.
+
+The example in the video tutorial below focuses on the language of laboratory biology.
+
+<figure>
+  <iframe title="xtUML and Domain Specific Languages" width="800" height="450" src="https://www.youtube.com/embed/Z3hDKAZwdEk" loading="lazy" allowfullscreen></iframe>
+  <figcaption>Original tutorial: xtUML and Domain Specific Languages.</figcaption>
+</figure>
+
+Laboratory biologists may work with concepts and actions such as *start*, *sample*, *next sample*, *volume*, *inject*, *extract*, *pause*, and *rinse*. These terms can describe the steps involved in configuring an experiment, such as analyzing blood samples collected for a pharmacokinetic study.
+
+xtUML can be used to model the language itself. The language's instructions are represented as classes with operational and state-based behavior. A “program” in that language is then represented by the runtime population of instances of the modeled language.
+
+This separates the definition of the language from the individual programs expressed in it: **model the language once, then use it many times**.
+
+The original article described applications of this approach in laboratory science, industrial automation, and office-device control. Repeated applications revealed common patterns that could be factored into reusable models and applied across domains.
