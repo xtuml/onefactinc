@@ -22,6 +22,9 @@ Additional articles migrated:
 
 Remaining candidates for review:
 - **Migrated:** [Issue Tracking with Redmine](/issue-tracking-with-redmine/) — February 18, 2016; historical note on community issue tracking.
+- **Migrated:** [State Diagram, State Table](/state-diagram-state-table/) — April 10, 2019; graphical and tabular representations of state-machine behavior.
+- **Migrated:** [Shlaer-Mellor Runtime](/shlaer-mellor-runtime/) — August 21, 2019; runtime event-ordering semantics and a modeled dispatcher.
+- **Migrated:** [Modeling Domain Specific Languages](/modeling-domain-specific-languages/) — January 12, 2015; using xtUML to define reusable domain-specific languages.
 
 ## Archive index
 
@@ -203,5 +206,5 @@ The links below are titles discovered in the archived blog pagination. Some may 
 
 - The source archive's pagination contains WordPress-generated query-string links as well as canonical folder-style article paths. Use the canonical article folder when present; do not create new pages from query-string export artifacts.
 - Several entries are event announcements, product release notices, personal posts, or old tool instructions. Preserve their historical context and do not silently present old instructions as current guidance.
-- Publication dates for the first three migrated articles were verified using the archived WordPress REST API JSON records. Dates for the remaining older set have not yet been verified; do not infer them from pagination order or WordPress post IDs. Verify dates from a reliable source before adding those articles to the dated blog index.
+- Publication dates for migrated articles have been verified against the archived WordPress REST API JSON records. Dates for remaining candidates have not yet been verified; do not infer them from pagination order or WordPress post IDs. Verify dates from a reliable source before adding articles to the dated blog index.
 - This is a title-level inventory, not yet a content-completeness audit. Each selected article still needs a review of body text, images, downloads, external links, and original permalink.
