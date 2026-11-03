@@ -6,9 +6,23 @@ baseurl: "/onefactinc"
 markdown: kramdown
 permalink: pretty
 
+collections:
+  articles:
+    output: true
+    sort_by: title
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+
 exclude:
   - README.md
   - LICENSE
   - Gemfile
   - Gemfile.lock
   - vendor
+  - MIGRATION-INVENTORY.md
