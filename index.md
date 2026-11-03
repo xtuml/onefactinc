@@ -20,7 +20,7 @@ description: One Fact provides expertise in systems modeling, embedded control, 
     <p class="eyebrow">ONE FACT</p>
     <div>
       <h2>Engineering insight for systems that matter.</h2>
-      <p class="large-copy">From systems modeling to embedded control, we bring practical experience and disciplined methods to challenging engineering problems.</p>
+      <p class="large-copy">One Fact offers professional services, consulting, training, and support around systems modeling, embedded control, and the BridgePoint xtUML modeling tool.</p>
     </div>
   </div>
 </section>
@@ -33,18 +33,30 @@ description: One Fact provides expertise in systems modeling, embedded control, 
       <article class="feature">
         <span class="feature-number">01</span>
         <h3>Systems modeling</h3>
-        <p>Use precise models to explore system structure, behavior, and requirements before committing to implementation.</p>
+        <p>Apply the Shlaer-Mellor method of model-driven development to clarify application structure and behavior.</p>
       </article>
       <article class="feature">
         <span class="feature-number">02</span>
-        <h3>Embedded control</h3>
-        <p>Apply engineering discipline to software that interacts with real-world devices and environments.</p>
+        <h3>Model execution &amp; testing</h3>
+        <p>Execute models to demonstrate system behavior, test early, and improve confidence before implementation.</p>
       </article>
       <article class="feature">
         <span class="feature-number">03</span>
-        <h3>xtUML &amp; BridgePoint</h3>
-        <p>Leverage executable modeling and the BridgePoint xtUML toolset to improve software development.</p>
+        <h3>Code generation</h3>
+        <p>Translate models into implementation code for targets ranging from embedded microcontrollers to distributed architectures.</p>
       </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">SERVICES</p>
+    <h2>From first questions to working systems.</h2>
+    <div class="feature-grid">
+      <article class="feature"><h3>Training &amp; consulting</h3><p>Build practical xtUML and BridgePoint skills, assess projects, and improve engineering workflows. <a href="{{ '/training-consulting/' | relative_url }}">Explore services</a>.</p></article>
+      <article class="feature"><h3>Technical support</h3><p>Get help with BridgePoint and model-driven development. <a href="{{ '/support/' | relative_url }}">Explore support</a>.</p></article>
+      <article class="feature"><h3>Custom engineering</h3><p>Develop model compilers, tooling features, test suites, and supporting engineering processes.</p></article>
     </div>
   </div>
 </section>
@@ -66,6 +78,6 @@ description: One Fact provides expertise in systems modeling, embedded control, 
       <h2>Have a challenging engineering problem?</h2>
       <p>Let's talk about how systems modeling and practical engineering experience can help.</p>
     </div>
-    <a class="button button-dark" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">→</span></a>
+    <a class="button button-dark" href="{{ '/get-in-touch/' | relative_url }}">Get in touch <span aria-hidden="true">→</span></a>
   </div>
 </section>
