@@ -1,0 +1,31 @@
+---
+title: "Shlaer-Mellor Runtime"
+date: 2019-08-21
+description: "An explanation of runtime semantics in the Shlaer-Mellor method, including event ordering and a modeled dispatcher architecture."
+permalink: /shlaer-mellor-runtime/
+source_url: "https://xtuml.github.io/onefactnet/shlaer-mellor-runtime/"
+---
+
+Stephen Mellor and Sally Shlaer did not prescribe a pre-packaged “Shlaer-Mellor Runtime Engine” in the form of operating-system or middleware services. Instead, they defined rules governing the execution of domains modeled using the Shlaer-Mellor method.
+
+Examples include the **time and event rules**. One rule states that event ordering must be maintained between sender/receiver pairs. This requires ordering to be preserved for events exchanged between a particular sender and receiver, without necessarily requiring deterministic ordering among unrelated pairs.
+
+Another rule is **accelerated event to self**: events sent from an instance to itself are processed ahead of events sent from other instances.
+
+A runtime architecture that implements these rules can itself be modeled using xtUML, just like any other subject matter. The following example shows a modeled runtime dispatcher.
+
+<figure>
+  <img src="https://xtuml.github.io/onefactnet/wp-content/uploads/2019/08/smarch-1024x741-4769662.png" alt="Example Shlaer-Mellor runtime architecture" loading="lazy">
+  <figcaption>Example Shlaer-Mellor runtime dispatcher architecture.</figcaption>
+</figure>
+
+The dispatcher can be represented with a class diagram and a state machine describing its behavior:
+
+<figure>
+  <img src="https://xtuml.github.io/onefactnet/wp-content/uploads/2019/08/dispatcher-1024x919-3238312.png" alt="Class state machine for a runtime dispatcher" loading="lazy">
+  <figcaption>Dispatcher class state machine.</figcaption>
+</figure>
+
+The important distinction is between the runtime's required semantics and any particular implementation. The rules define the behavior that must be realized; a modeled dispatcher is one way to reason about and implement that behavior.
+
+*Historical note: this article describes the Shlaer-Mellor execution rules and an example architecture published in 2019. Specific runtime implementations may differ.*
