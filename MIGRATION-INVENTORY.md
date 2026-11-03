@@ -39,7 +39,7 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
   - Color Your Model — March 20, 2020
 - `/blog/` — generated newest-first index of migrated articles, with publication dates and short descriptions.
 
-The dates above come from the archived WordPress RSS feed, rather than guesses based on file names. The feed exposes its ten most recent entries, and all ten are now represented in the Jekyll collection. Older articles remain to be inventoried and prioritized.
+The dates above come from the archived WordPress RSS feed, rather than guesses based on file names. The feed exposes its ten most recent entries, and all ten are now represented in the Jekyll collection. Older articles have now been inventoried from blog pagination pages 2–23. The title-level inventory is in [OLDER-ARTICLE-INVENTORY.md](OLDER-ARTICLE-INVENTORY.md). It identifies a first priority group of technical articles, but body review, reliable publication-date recovery, and media/link audits remain outstanding.
 
 The team roster and service descriptions are historical source content. Confirm current accuracy before production cutover.
 
@@ -53,7 +53,7 @@ All ten migrated articles retain their original paths and display their source p
 
 ## Next migration phases
 
-1. Inventory and migrate older editorial content beyond the ten items in the captured RSS feed, using canonical page metadata where available and avoiding duplicate feed/pagination artifacts.
+1. Review and migrate selected older editorial content from the title-level inventory. Recover reliable publication dates before adding entries to the dated blog index, and avoid duplicate feed/pagination artifacts.
 2. Import the article images into this repository's `assets/images/articles/` directory; currently they are served from the static archive as an interim measure. Recover the Panda PDF and store it under `assets/downloads/`.
 3. Review external links, downloadable files, and obsolete calls to action.
 4. Check all internal links, images, embeds, and generated URLs on the GitHub Pages preview.
