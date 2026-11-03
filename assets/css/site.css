@@ -91,3 +91,20 @@ h2 { margin: 0 0 25px; font-size: clamp(2rem, 4vw, 3.25rem); }
 .article-page .article-date { color: #d6e5e9; }
 .article-list-item .article-date { margin-bottom: .35rem; }
 .article-content iframe { display: block; max-width: 100%; margin: 1.5rem 0; }
+
+
+/* Team portraits */
+.team-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 42px; }
+.team-card { display: flex; align-items: center; gap: 24px; min-width: 0; padding: 24px; background: white; border: 1px solid var(--line); }
+.team-photo { display: block; flex: 0 0 132px; width: 132px; height: 164px; object-fit: cover; object-position: center; border-radius: 6px; background: var(--mist); }
+.team-details { min-width: 0; }
+.team-details h3 { margin: 0 0 8px; font-size: 1.25rem; }
+.team-details p { margin: 0 0 8px; color: var(--muted); overflow-wrap: anywhere; }
+.team-details .team-role { color: var(--ink); font-weight: 600; }
+@media (max-width: 900px) {
+  .team-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .team-card { align-items: flex-start; gap: 16px; padding: 18px; }
+  .team-photo { flex-basis: 104px; width: 104px; height: 132px; }
+}
