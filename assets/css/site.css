@@ -86,3 +86,8 @@ h2 { margin: 0 0 25px; font-size: clamp(2rem, 4vw, 3.25rem); }
 .article-list-item { padding-bottom: 1.5rem; border-bottom: 1px solid #e4e9ee; }
 .article-list-item h2 { margin: 0 0 .5rem; font-size: 1.4rem; }
 .article-source { margin-top: 3rem; font-size: .85rem; color: #687586; }
+
+.article-date { margin: 0 0 .65rem; color: var(--muted, #667085); font-size: .88rem; }
+.article-page .article-date { color: #d6e5e9; }
+.article-list-item .article-date { margin-bottom: .35rem; }
+.article-content iframe { display: block; max-width: 100%; margin: 1.5rem 0; }
