@@ -1,0 +1,14 @@
+---
+title: "Java and BridgePoint"
+date: 2019-10-22
+description: "A 2019 BridgePoint packaging change prompted by Oracle Java licensing terms."
+permalink: /java-and-bridgepoint/
+source_url: "https://xtuml.github.io/onefactnet/java-and-bridgepoint/"
+---
+In 2019, Oracle changed the licensing terms for its Java distribution. BridgePoint had previously been packaged with that version of Java for consistency and convenience. The change meant the xtUML development team could no longer continue bundling that runtime.
+
+The team therefore removed the bundled Java Runtime Environment (JRE) from BridgePoint and stopped distributing a Java runtime with the tool. Users would configure an appropriate Java runtime separately.
+
+The original article linked to the [BridgePoint instructions for configuring a JRE](https://github.com/xtuml/bridgepoint/blob/master/doc-bridgepoint/process/HOWTO-configure-bp-jre.adoc) and noted that removing the bundled runtime reduced the BridgePoint download by approximately 150 MB.
+
+*Historical note: this post reflects Oracle licensing and BridgePoint packaging decisions in October 2019. The linked configuration instructions and current Java requirements should be checked before use.*
