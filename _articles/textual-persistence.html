@@ -1,0 +1,52 @@
+---
+title: "Textual Persistence"
+permalink: /textual-persistence/
+source_url: "https://onefact.net/textual-persistence/"
+---
+
+<p>Dear Modelers,</p>
+<div></div>
+<div>Significant progress has been made on a specifications of textual xtUML and separately of graphics.  This note concerns the specification of textual semantic xtUML.  This spec will serve a few purposes.</div>
+<div>
+<ol>
+<li>It specifies a full notation of structural Shlaer-Mellor textually.</li>
+<li>It specifies how models will be persisted under BridgePoint (supplanting the OOA of OOA instance strategy currently employed).</li>
+<li>It defines a textual exchange mechanism.</li>
+<li>It loosens the coupling between the Method and tooling opening many options for editors, interpreters and translators.  (Human readable semantic text is much more accessible than a collection of OOA of OOA instances.)</li>
+<li>It opens dialogue for the addition/deletion of Method and tooling features and potential convergences.</li>
+</ol>
+<div>If you like, please review the linked specification.  Syntax and style feedback are fine, but we are really looking for &#8220;big picture&#8221; issues.  Here are a few substantive topics to think about while reviewing.</div>
+</div>
+<div>
+<ul>
+<li>containment</li>
+<li>element identification (fully qualified &#8220;paths&#8221;)</li>
+<li>scoping and visibility</li>
+<li>type system</li>
+<li>state machine semantics (initial state, terminal state, creation event)</li>
+<li>inclusion (package references)</li>
+<li>exclusion of non-executable elements (use cases, etc)</li>
+<li>action language agnosticism (or multi-theism 😉</li>
+</ul>
+<div>What this specification implies:</div>
+<div>
+<ul>
+<li>diff/merge becomes much more tractable</li>
+<li>Models can be edited outside of BridgePoint (and then sync&#8217;d).</li>
+<li>Models can be edited simultaneously with a graphical editor and a textual editor (updating in both directions).</li>
+<li>A variety of editors, interpreters and model compilers can choose to operate upon text rather than OOA of OOA instances.</li>
+<li>Differing diagram editor/renders can be connected (e.g. Flatland) to these semantics.</li>
+<li>Semantics can optionally be reasoned about in unambiguous text rather than (together with) diagrammatic content.</li>
+</ul>
+</div>
+<div><a href="https://github.com/xtuml/bridgepoint/blob/master/doc-bridgepoint/notes/12330_textual_xtuml/12330_textual_xtuml.adoc" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://github.com/xtuml/bridgepoint/blob/master/doc-bridgepoint/notes/12330_textual_xtuml/12330_textual_xtuml.adoc&amp;source=gmail&amp;ust=1640806587661000&amp;usg=AOvVaw14PJB5DV_dyXB67We8gssO">https://github.com/xtuml/<wbr />bridgepoint/blob/master/doc-<wbr />bridgepoint/notes/12330_<wbr />textual_xtuml/12330_textual_<wbr />xtuml.adoc</a></div>
+</div>
+<div></div>
+<div>The single file example model in this folder is instructive.  It is a textual representation of the GPS Watch.</div>
+<div><a href="https://github.com/xtuml/bridgepoint/tree/master/doc-bridgepoint/notes/12330_textual_xtuml/example" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://github.com/xtuml/bridgepoint/tree/master/doc-bridgepoint/notes/12330_textual_xtuml/example&amp;source=gmail&amp;ust=1640806587661000&amp;usg=AOvVaw3UT451GzXqtTx8X535MMEw">https://github.com/xtuml/<wbr />bridgepoint/tree/master/doc-<wbr />bridgepoint/notes/12330_<wbr />textual_xtuml/example</a></div>
+<div></div>
+<div>There are no dates or deadlines.  The spec is prerequisite to any development.</div>
+<div></div>
+<div>Kudos to those who have done the heavy lifting and 1F for sponsoring the effort.  And credit is due to the original authors of MASL; we are standing on their shoulders.</div>
+<div></div>
+<div>Cheers!</div>
