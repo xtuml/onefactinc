@@ -4,12 +4,14 @@ Source: `xtuml/onefactnet`, WordPress static capture. This document inventories 
 
 ## Migration priorities
 
-These articles appear especially relevant to the current One Fact / xtUML technical focus and are good candidates for the next content-review batch:
+The first three selected articles have now been migrated to `_articles/` with their original publication dates and permalinks. Their content was recovered from the archived WordPress REST API export (`wp-json/wp/v2/posts/{id}`), which includes the original date and rendered post body.
 
-- Dawn of Ciera — production release announcement for the Ciera model compiler.
-- OOA of MASL — comparison of the MASL and xtUML metamodels.
+- **Migrated:** [Dawn of Ciera](/dawn-of-ciera/) — February 1, 2020; production release announcement for the Ciera model compiler.
+- **Migrated:** [OOA of MASL](/ooa-of-masl/) — January 16, 2020; comparison of the MASL and xtUML metamodels.
+- **Migrated:** [Requirement Tracing](/requirement-tracing/) — November 21, 2019; approaches to tracing requirements through models and commits.
+
+Remaining candidates for review:
 - Do I need BridgePoint Pro? — explains the distinction between nightly builds and supported releases.
-- Requirement Tracing — approaches to tracing requirements through models and commits.
 - xtUML in the Field — agricultural robotics, navigation, and model-based control.
 - Java and BridgePoint — historical Java runtime configuration note; review for current relevance before publishing.
 - AWS Lambda — cloud deployment / serverless topic; review current technical accuracy.
@@ -198,5 +200,5 @@ The links below are titles discovered in the archived blog pagination. Some may 
 
 - The source archive's pagination contains WordPress-generated query-string links as well as canonical folder-style article paths. Use the canonical article folder when present; do not create new pages from query-string export artifacts.
 - Several entries are event announcements, product release notices, personal posts, or old tool instructions. Preserve their historical context and do not silently present old instructions as current guidance.
-- Publication dates for this older set have not yet been verified against authoritative metadata. Do not infer dates from pagination order or WordPress post IDs. Verify dates from a reliable source before adding them to the dated blog index.
+- Publication dates for the first three migrated articles were verified using the archived WordPress REST API JSON records. Dates for the remaining older set have not yet been verified; do not infer them from pagination order or WordPress post IDs. Verify dates from a reliable source before adding those articles to the dated blog index.
 - This is a title-level inventory, not yet a content-completeness audit. Each selected article still needs a review of body text, images, downloads, external links, and original permalink.
