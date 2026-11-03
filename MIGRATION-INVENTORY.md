@@ -26,6 +26,8 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 - `/training-consulting/` — training courses and consulting services.
 - `/support/` — BridgePoint Pro, Service Pro, and custom engineering summary.
 - `/get-in-touch/` — contact information, retaining the archived contact path.
+- Six editorial articles in the `_articles` collection: Mount Kilimanjaro, Textual Persistence, Model-Driven Test with TAME, Panda – Open Source Development, MC-Generated Auto-Dispose, and HOWTO Connect to xtUML. Each keeps its original root-level URL slug.
+- `/blog/` — a generated index of migrated articles.
 
 The team roster and service descriptions are historical source content. Confirm current accuracy before production cutover.
 
@@ -34,6 +36,10 @@ The team roster and service descriptions are historical source content. Confirm 
 The original site used folder-style paths such as `/our-team/`, `/training-consulting/`, and `/get-in-touch/`. Jekyll front matter permalinks will retain those paths even when the source Markdown files live at the repository root. This follows Jekyll's documented page permalink mechanism.
 
 The blog archive should retain each article's original slug path where possible. The original publication date should be preserved as metadata, but the permalink should be explicitly set when it differs from the chosen Jekyll post URL convention.
+
+## Article archive implementation
+
+The archive uses a Jekyll collection named `articles`, with each document assigned an explicit original-style permalink. The captured HTML does not consistently expose reliable publication dates, so the collection currently sorts alphabetically by title rather than assigning fabricated dates. Article content is extracted from the original post-content region; WordPress theme wrappers, scripts, and related-post widgets are not copied. Image references currently point to the original WordPress uploads and must be copied into the new repository before the old WordPress host is retired.
 
 ## Next migration phases
 
