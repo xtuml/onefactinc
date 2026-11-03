@@ -49,12 +49,12 @@ The original site used folder-style paths such as `/our-team/`, `/training-consu
 
 The article collection uses explicit original-style permalinks. Publication dates are stored as metadata and displayed in the blog index and article headers. Article content is cleaned and rewritten as readable HTML/Markdown; WordPress theme wrappers, scripts, and related-post widgets are not copied.
 
-All ten migrated articles retain their original paths and display their source publication dates. Several articles still reference images or downloadable files on the original `onefact.net` WordPress host. Those dependencies must be copied into the new repository and checked before the old host can be retired. The YouTube embed remains an intentional third-party dependency.
+All ten migrated articles retain their original paths and display their source publication dates. Article images have been redirected from the WordPress host to the corresponding files in the existing static archive at `xtuml.github.io/onefactnet`. This removes the migrated article images' dependency on the WordPress host, but the images are not yet stored in this Jekyll repository. The Panda PDF is not present in the source archive tree and still needs to be recovered from the original media library or another source before the WordPress host can be retired. The YouTube embed remains an intentional third-party dependency.
 
 ## Next migration phases
 
 1. Inventory and migrate older editorial content beyond the ten items in the captured RSS feed, using canonical page metadata where available and avoiding duplicate feed/pagination artifacts.
-2. Copy only media referenced by migrated content, preserving descriptive filenames where practical.
+2. Import the article images into this repository's `assets/images/articles/` directory; currently they are served from the static archive as an interim measure. Recover the Panda PDF and store it under `assets/downloads/`.
 3. Review external links, downloadable files, and obsolete calls to action.
 4. Check all internal links, images, embeds, and generated URLs on the GitHub Pages preview.
 5. Confirm current company contact details, team roster, and service offerings before custom-domain cutover.
