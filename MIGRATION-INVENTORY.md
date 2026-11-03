@@ -26,7 +26,7 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 - `/training-consulting/` — training courses and consulting services.
 - `/support/` — BridgePoint Pro, Service Pro, and custom engineering summary.
 - `/get-in-touch/` — contact information, retaining the archived contact path.
-- Ten editorial articles in the `_articles` collection, each retaining its original root-level slug:
+- Twenty-five editorial articles in the `_articles` collection, each retaining its original root-level slug:
   - Mount Kilimanjaro — January 13, 2026
   - Textual Persistence — December 28, 2021
   - Model-Driven Test with TAME — January 25, 2021
@@ -34,12 +34,27 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
   - MC-Generated Auto-Dispose — April 21, 2020
   - HOWTO Connect to xtUML — April 15, 2020
   - Diagram and Element Types — April 7, 2020
-  - xtUML Days 2020 Save-the-Date — April 1, 2020 (historical event announcement)
+  - xtUML Days 2020 Save-the-Date — April 1, 2020
   - OAL, MASL and now ASL — April 1, 2020
   - Color Your Model — March 20, 2020
+  - Dawn of Ciera — February 1, 2020
+  - OOA of MASL — January 16, 2020
+  - Shlaer-Mellor Runtime — August 21, 2019
+  - Requirement Tracing — November 21, 2019
+  - xtUML in the Field — November 11, 2019
+  - Java and BridgePoint — October 22, 2019
+  - State Diagram, State Table — April 10, 2019
+  - Continuous Integration — April 3, 2019
+  - Amazon Web Services (AWS) Lambda — December 19, 2018
+  - Model-Based Testing of Self-Driving Cars — August 1, 2017
+  - Issue Tracking with Redmine — February 18, 2016
+  - Action Language Fundamentals — February 17, 2016
+  - Action Language — February 16, 2016
+  - Modeling Before Programming — July 4, 2016
+  - Modeling Domain Specific Languages — January 12, 2015
 - `/blog/` — generated newest-first index of migrated articles, with publication dates and short descriptions.
 
-The dates above come from the archived WordPress RSS feed, rather than guesses based on file names. The feed exposes its ten most recent entries, and all ten are now represented in the Jekyll collection. Older articles have now been inventoried from blog pagination pages 2–23. The title-level inventory is in [OLDER-ARTICLE-INVENTORY.md](OLDER-ARTICLE-INVENTORY.md). It identifies a first priority group of technical articles, but body review, reliable publication-date recovery, and media/link audits remain outstanding.
+The ten newest article dates came from the archived WordPress RSS feed. Dates for the older migrated articles were verified against the archived WordPress REST API records. Additional candidates remain inventoried from blog pagination pages 2–23 in [OLDER-ARTICLE-INVENTORY.md](OLDER-ARTICLE-INVENTORY.md).
 
 The team roster and service descriptions are historical source content. Confirm current accuracy before production cutover.
 
@@ -49,12 +64,12 @@ The original site used folder-style paths such as `/our-team/`, `/training-consu
 
 The article collection uses explicit original-style permalinks. Publication dates are stored as metadata and displayed in the blog index and article headers. Article content is cleaned and rewritten as readable HTML/Markdown; WordPress theme wrappers, scripts, and related-post widgets are not copied.
 
-All ten migrated articles retain their original paths and display their source publication dates. Article images have been redirected from the WordPress host to the corresponding files in the existing static archive at `xtuml.github.io/onefactnet`. This removes the migrated article images' dependency on the WordPress host, but the images are not yet stored in this Jekyll repository. The Panda PDF is not present in the source archive tree and still needs to be recovered from the original media library or another source before the WordPress host can be retired. The YouTube embed remains an intentional third-party dependency.
+All 25 migrated articles retain their original paths and display their source publication dates. Twenty-six image assets used by these articles have now been copied into this repository under `assets/images/`, and article image references have been updated to use Jekyll's `relative_url` filter. One source image for the xtUML in the Field article was a zero-byte file in the archive and has been omitted; the other four model images are local. Research PDFs remain linked to the static archive where available. The Panda project PDF was not present in the archive and still needs to be recovered from the original media library or another source before the WordPress host can be retired. YouTube embeds remain intentional third-party dependencies.
 
 ## Next migration phases
 
 1. Review and migrate selected older editorial content from the title-level inventory. Recover reliable publication dates before adding entries to the dated blog index, and avoid duplicate feed/pagination artifacts.
-2. Import the article images into this repository's `assets/images/articles/` directory; currently they are served from the static archive as an interim measure. Recover the Panda PDF and store it under `assets/downloads/`.
+2. Recover the Panda project PDF and any other required downloadable files; store them locally under `assets/downloads/`.
 3. Review external links, downloadable files, and obsolete calls to action.
 4. Check all internal links, images, embeds, and generated URLs on the GitHub Pages preview.
 5. Confirm current company contact details, team roster, and service offerings before custom-domain cutover.
