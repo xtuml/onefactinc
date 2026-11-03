@@ -1,0 +1,14 @@
+title: One Fact
+description: Systems modeling, embedded control, and xtUML expertise.
+url: "https://xtuml.github.io"
+baseurl: "/onefactinc"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
