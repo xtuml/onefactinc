@@ -10,10 +10,12 @@ The first three selected articles have now been migrated to `_articles/` with th
 - **Migrated:** [OOA of MASL](/ooa-of-masl/) — January 16, 2020; comparison of the MASL and xtUML metamodels.
 - **Migrated:** [Requirement Tracing](/requirement-tracing/) — November 21, 2019; approaches to tracing requirements through models and commits.
 
+Also migrated in the next batch:
+- **Migrated:** [Do I Need BridgePoint Pro?](/do-i-need-bridgepoint-pro/) — December 4, 2019; historical explanation of nightly versus supported releases.
+- **Migrated:** [xtUML in the Field](/xtuml-in-the-field/) — November 11, 2019; agricultural robotics case study.
+- **Migrated:** [Java and BridgePoint](/java-and-bridgepoint/) — October 22, 2019; historical Java packaging and licensing change.
+
 Remaining candidates for review:
-- Do I need BridgePoint Pro? — explains the distinction between nightly builds and supported releases.
-- xtUML in the Field — agricultural robotics, navigation, and model-based control.
-- Java and BridgePoint — historical Java runtime configuration note; review for current relevance before publishing.
 - AWS Lambda — cloud deployment / serverless topic; review current technical accuracy.
 - Continuous Integration — engineering process topic.
 - Model-Based Testing of Self-Driving Cars — model-based testing topic.
