@@ -14,28 +14,40 @@ permalink: /our-team/
 </section>
 
 <section class="section">
-  <div class="container narrow">
+  <div class="container">
     <h2>People</h2>
-    <div class="feature-grid">
-      <article class="feature">
-        <h3>Cortland Starrett</h3>
-        <p>Founder</p>
-        <p><a href="mailto:cortland.starrett@onefact.net">cortland.starrett@onefact.net</a></p>
+    <div class="team-grid">
+      <article class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/cortland-starrett.jpg' | relative_url }}" alt="Portrait of Cortland Starrett" loading="lazy">
+        <div class="team-details">
+          <h3>Cortland Starrett</h3>
+          <p class="team-role">Founder</p>
+          <p><a href="mailto:cortland.starrett@onefact.net">cortland.starrett@onefact.net</a></p>
+        </div>
       </article>
-      <article class="feature">
-        <h3>Robert Mulvey</h3>
-        <p>Vice President, Operations</p>
-        <p><a href="mailto:robert.mulvey@onefact.net">robert.mulvey@onefact.net</a></p>
+      <article class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/robert-mulvey.jpg' | relative_url }}" alt="Portrait of Robert Mulvey" loading="lazy">
+        <div class="team-details">
+          <h3>Robert Mulvey</h3>
+          <p class="team-role">Vice President, Operations</p>
+          <p><a href="mailto:robert.mulvey@onefact.net">robert.mulvey@onefact.net</a></p>
+        </div>
       </article>
-      <article class="feature">
-        <h3>Keith Brown</h3>
-        <p>Customer Support Manager</p>
-        <p><a href="mailto:keith.brown@onefact.net">keith.brown@onefact.net</a></p>
+      <article class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/keith-brown.jpg' | relative_url }}" alt="Portrait of Keith Brown" loading="lazy">
+        <div class="team-details">
+          <h3>Keith Brown</h3>
+          <p class="team-role">Customer Support Manager</p>
+          <p><a href="mailto:keith.brown@onefact.net">keith.brown@onefact.net</a></p>
+        </div>
       </article>
-      <article class="feature">
-        <h3>Levi Starrett</h3>
-        <p>President and CEO</p>
-        <p><a href="mailto:levi.starrett@onefact.net">levi.starrett@onefact.net</a></p>
+      <article class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/levi-starrett.jpg' | relative_url }}" alt="Portrait of Levi Starrett" loading="lazy">
+        <div class="team-details">
+          <h3>Levi Starrett</h3>
+          <p class="team-role">President and CEO</p>
+          <p><a href="mailto:levi.starrett@onefact.net">levi.starrett@onefact.net</a></p>
+        </div>
       </article>
     </div>
     <p class="caption">Team names, roles, and contact details are carried over from the archived site and should be confirmed before the new site replaces the production site.</p>
