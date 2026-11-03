@@ -26,16 +26,20 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 - `/training-consulting/` — training courses and consulting services.
 - `/support/` — BridgePoint Pro, Service Pro, and custom engineering summary.
 - `/get-in-touch/` — contact information, retaining the archived contact path.
-- Six editorial articles in the `_articles` collection, each retaining its original root-level slug:
+- Ten editorial articles in the `_articles` collection, each retaining its original root-level slug:
   - Mount Kilimanjaro — January 13, 2026
   - Textual Persistence — December 28, 2021
   - Model-Driven Test with TAME — January 25, 2021
   - Panda – Open Source Development — May 12, 2020
   - MC-Generated Auto-Dispose — April 21, 2020
   - HOWTO Connect to xtUML — April 15, 2020
+  - Diagram and Element Types — April 7, 2020
+  - xtUML Days 2020 Save-the-Date — April 1, 2020 (historical event announcement)
+  - OAL, MASL and now ASL — April 1, 2020
+  - Color Your Model — March 20, 2020
 - `/blog/` — generated newest-first index of migrated articles, with publication dates and short descriptions.
 
-The dates above come from the archived WordPress RSS feed, rather than guesses based on file names. The feed exposes only its ten most recent entries; six of those have been migrated so far. Older articles remain to be inventoried and prioritized.
+The dates above come from the archived WordPress RSS feed, rather than guesses based on file names. The feed exposes its ten most recent entries, and all ten are now represented in the Jekyll collection. Older articles remain to be inventoried and prioritized.
 
 The team roster and service descriptions are historical source content. Confirm current accuracy before production cutover.
 
@@ -45,11 +49,11 @@ The original site used folder-style paths such as `/our-team/`, `/training-consu
 
 The article collection uses explicit original-style permalinks. Publication dates are stored as metadata and displayed in the blog index and article headers. Article content is cleaned and rewritten as readable HTML/Markdown; WordPress theme wrappers, scripts, and related-post widgets are not copied.
 
-Some migrated articles still reference images or downloadable files on the original `onefact.net` WordPress host. Those dependencies must be copied into the new repository and checked before the old host can be retired. The YouTube embed remains an intentional third-party dependency.
+All ten migrated articles retain their original paths and display their source publication dates. Several articles still reference images or downloadable files on the original `onefact.net` WordPress host. Those dependencies must be copied into the new repository and checked before the old host can be retired. The YouTube embed remains an intentional third-party dependency.
 
 ## Next migration phases
 
-1. Inventory and migrate the remaining editorial archive, using WordPress RSS metadata where available and avoiding duplicate feed/pagination artifacts.
+1. Inventory and migrate older editorial content beyond the ten items in the captured RSS feed, using canonical page metadata where available and avoiding duplicate feed/pagination artifacts.
 2. Copy only media referenced by migrated content, preserving descriptive filenames where practical.
 3. Review external links, downloadable files, and obsolete calls to action.
 4. Check all internal links, images, embeds, and generated URLs on the GitHub Pages preview.
