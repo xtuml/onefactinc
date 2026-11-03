@@ -1,0 +1,27 @@
+---
+title: "MC-Generated Auto-Dispose"
+permalink: /mc-generated-auto-dispose/
+source_url: "https://onefact.net/mc-generated-auto-dispose/"
+---
+
+<p>In good Object-Oriented Programming and Modeling, instances of classes are linked through associations.  This establishes a powerful interdependence within groups of related classes but makes clean-up more complex.  An instance cannot simply delete itself without considering instances of other linked classes.</p>
+
+
+
+<figure class="wp-block-image size-full"><img alt='mission-8487773' src="https://onefact.net/wp-content/uploads/2020/04/mission-8487773.png' alt="" class="wp-image-1266"/><figcaption>Soil Sampling Mission</figcaption></figure>
+
+
+
+<p>Since associations in xtUML are explicit and captured in the model data, the disposal process can be automated.  Some associations are unconditional; others are conditional.  This distinction is available to the code generator at translation time.  One such model compiler helped in a soil sampling robotics application.</p>
+
+
+
+<p>Consider this model of a soil sampling mission.  On the right, a &#8220;zone&#8221; is defined by at least one (but possibly many) outer boundaries and 0-many inner boundaries (&#8220;holes&#8221;).  Basically a point is in the zone if it is within any of the outer boundaries and not in any of the inner boundaries.</p>
+
+
+
+<p>There is an operation in the application that allows boundaries to be deleted.  Suppose a boundary that is being used as a zone that contains samples is deleted.  If it is the last outer boundary, it cascades and causes the zone itself to be disposed (because it is an unconditional association), the zone deletion causes &#8220;sample zone&#8221; to get deleted which causes &#8220;sample site&#8221; to get deleted, which causes all &#8220;samples&#8221; to get deleted which causes all &#8220;soil cores&#8221; to get deleted which causes a &#8220;core point&#8221; to get deleted which causes a &#8220;waypoint&#8221; to get deleted (phew!!)</p>
+
+
+
+<p>It is pretty amazing!  That is a ton of clean-up work the modeler simply does not even have to think about.</p>
