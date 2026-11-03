@@ -73,3 +73,16 @@ h2 { margin: 0 0 25px; font-size: clamp(2rem, 4vw, 3.25rem); }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }
 }
+
+/* Article archive */
+.article-content { line-height: 1.75; }
+.article-content h2, .article-content h3 { margin-top: 2rem; }
+.article-content img { max-width: 100%; height: auto; border-radius: 8px; }
+.article-content figure { margin: 2rem 0; }
+.article-content figcaption { color: var(--muted, #667085); font-size: .9rem; }
+.article-content pre { overflow-x: auto; padding: 1rem; background: #f3f6f8; border-radius: 8px; }
+.article-content blockquote { border-left: 3px solid #168b91; padding-left: 1rem; color: #465467; }
+.article-list { display: grid; gap: 1.5rem; }
+.article-list-item { padding-bottom: 1.5rem; border-bottom: 1px solid #e4e9ee; }
+.article-list-item h2 { margin: 0 0 .5rem; font-size: 1.4rem; }
+.article-source { margin-top: 3rem; font-size: .85rem; color: #687586; }
