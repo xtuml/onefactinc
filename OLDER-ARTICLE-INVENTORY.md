@@ -21,7 +21,7 @@ Additional articles migrated:
 - **Migrated:** [Action Language](/action-language/) — February 16, 2016; conceptual introduction to model-aware action languages.
 
 Remaining candidates for review:
-- Issue Tracking with Redmine — historical tooling note; review before migration.
+- **Migrated:** [Issue Tracking with Redmine](/issue-tracking-with-redmine/) — February 18, 2016; historical note on community issue tracking.
 
 ## Archive index
 
