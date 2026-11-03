@@ -6,6 +6,7 @@ layout: default
     <div class="container">
       <p class="eyebrow"><a href="{{ '/blog/' | relative_url }}">BLOG</a></p>
       <h1>{{ page.title | escape }}</h1>
+      {% if page.date %}<p class="article-date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>{% endif %}
     </div>
   </header>
   <div class="section">
