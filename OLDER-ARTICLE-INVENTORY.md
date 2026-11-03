@@ -4,23 +4,24 @@ Source: `xtuml/onefactnet`, WordPress static capture. This document inventories 
 
 ## Migration priorities
 
-The first three selected articles have now been migrated to `_articles/` with their original publication dates and permalinks. Their content was recovered from the archived WordPress REST API export (`wp-json/wp/v2/posts/{id}`), which includes the original date and rendered post body.
+The migrated articles are in `_articles/` with their original publication dates and permalinks. Their content and dates were recovered from the archived WordPress REST API export (`wp-json/wp/v2/posts/{id}`).
 
 - **Migrated:** [Dawn of Ciera](/dawn-of-ciera/) — February 1, 2020; production release announcement for the Ciera model compiler.
 - **Migrated:** [OOA of MASL](/ooa-of-masl/) — January 16, 2020; comparison of the MASL and xtUML metamodels.
 - **Migrated:** [Requirement Tracing](/requirement-tracing/) — November 21, 2019; approaches to tracing requirements through models and commits.
 
-Also migrated in the next batch:
+Additional articles migrated:
 - **Migrated:** [Do I Need BridgePoint Pro?](/do-i-need-bridgepoint-pro/) — December 4, 2019; historical explanation of nightly versus supported releases.
 - **Migrated:** [xtUML in the Field](/xtuml-in-the-field/) — November 11, 2019; agricultural robotics case study.
 - **Migrated:** [Java and BridgePoint](/java-and-bridgepoint/) — October 22, 2019; historical Java packaging and licensing change.
+- **Migrated:** [Continuous Integration](/continuous-integration/) — April 3, 2019; engineering workflow and automation.
+- **Migrated:** [Amazon Web Services (AWS) Lambda](/amazon-web-services-aws-lambda/) — December 19, 2018; cloud deployment demonstration.
+- **Migrated:** [Model-Based Testing of Self-Driving Cars](/model-based-testing-self-driving-cars/) — August 1, 2017; model-based testing case study.
+- **Migrated:** [Action Language Fundamentals](/action-language-fundamentals/) — February 17, 2016; five categories of action-language operations.
+- **Migrated:** [Action Language](/action-language/) — February 16, 2016; conceptual introduction to model-aware action languages.
 
 Remaining candidates for review:
-- AWS Lambda — cloud deployment / serverless topic; review current technical accuracy.
-- Continuous Integration — engineering process topic.
-- Model-Based Testing of Self-Driving Cars — model-based testing topic.
 - Issue Tracking with Redmine — historical tooling note; review before migration.
-- Action Language Fundamentals and Action Language — educational content.
 
 ## Archive index
 
