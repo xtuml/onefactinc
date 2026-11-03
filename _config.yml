@@ -26,3 +26,4 @@ exclude:
   - Gemfile.lock
   - vendor
   - MIGRATION-INVENTORY.md
+  - OLDER-ARTICLE-INVENTORY.md
