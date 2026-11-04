@@ -2,6 +2,7 @@
 title: "Blood Pressure Cuff"
 date: 2014-12-01
 description: "A classroom example showing how a learner captured the behavior of a blood pressure cuff first on paper and then as an executable UML model."
+thumbnail: "/assets/images/BPcuff_BP-5858865.png"
 permalink: /blood-pressure-cuff/
 source_url: "https://onefact.net/blood-pressure-cuff/"
 ---
