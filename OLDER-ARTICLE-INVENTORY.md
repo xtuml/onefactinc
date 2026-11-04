@@ -197,7 +197,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 
 ### Page 23
 - **Migrated:** [Electric Parking Brake Model Snippet](/brake_model_snippet/) — publication date not yet verified
-- Getting Started with GitHub
+- **Migrated:** [Getting Started with GitHub](/getting-started-github/) — December 3, 2014; historical introduction to accessing BridgePoint repositories and using GitHub with eGit or command-line Git.
 - **Migrated:** [Blood Pressure Cuff](/blood-pressure-cuff/) — December 1, 2014; classroom example of modeling a blood pressure cuff first on paper and then in BridgePoint.
 - Where Does the Name One Fact Come From?
 - xtUML on MOdeling LAnguages

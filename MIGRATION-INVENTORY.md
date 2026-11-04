@@ -38,6 +38,7 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 - `/get-in-touch/` — contact information, retaining the archived contact path.
 - One hundred fifteen editorial articles in the `_articles` collection, each retaining its original root-level slug:
   - Blood Pressure Cuff — December 1, 2014
+  - Getting Started with GitHub — December 3, 2014
   - Stevenson Screen (Weather Station) — September 1, 2015
   - Future of Executable UML — May 19, 2015
   - Revision Control — May 15, 2015
