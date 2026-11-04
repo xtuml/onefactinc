@@ -171,8 +171,9 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - **Migrated:** [xtUML + UML-RT](/xtuml-uml-rt/) — publication date not yet verified
 
 ### Page 20
-- Semantic Steps
-- Three Layers
+- **Migrated:** [Semantic Steps](/semantic-steps/) — August 7, 2015; describes incremental evolution of the xtUML metamodel, with locally stored diagrams.
+- **Migrated:** [Three Layers](/three-layers/) — July 29, 2015; explains application, semantic, and technology layers in a modeling tool.
+- **Migrated:** [Union](/union/) — March 1, 2018; concise definition of set union with a local illustration.
 - **Migrated:** [Incremental, Always Advancing](/incremental-always-advancing/) — publication date not yet verified
 - **Migrated:** [Model Translation FAQs](/model-translation-faqs/) — publication date not yet verified
 - **Migrated:** [BridgePoint is moving to Eclipse 4.4 (Luna)](/bridgepoint-is-moving-to-eclipse-4-4-luna/) — publication date not yet verified

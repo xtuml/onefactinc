@@ -36,8 +36,11 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 - `/training-consulting/` — training courses and consulting services.
 - `/support/` — BridgePoint Pro, Service Pro, and custom engineering summary.
 - `/get-in-touch/` — contact information, retaining the archived contact path.
-- One hundred twelve editorial articles in the `_articles` collection, each retaining its original root-level slug:
+- One hundred fifteen editorial articles in the `_articles` collection, each retaining its original root-level slug:
   - Einstein's Riddle — April 26, 2018
+  - Union — March 1, 2018
+  - Semantic Steps — August 7, 2015
+  - Three Layers — July 29, 2015
   - Mount Kilimanjaro — January 13, 2026
   - Textual Persistence — December 28, 2021
   - Model-Driven Test with TAME — January 25, 2021
@@ -153,12 +156,12 @@ The original site used folder-style paths such as `/our-team/`, `/training-consu
 
 The article collection uses explicit original-style permalinks. Publication dates are stored as metadata and displayed in the blog index and article headers. Article content is cleaned and rewritten as readable HTML/Markdown; WordPress theme wrappers, scripts, and related-post widgets are not copied.
 
-All 111 migrated articles retain their original paths. Articles with verified dates display those dates; articles whose dates have not yet been verified are kept in a separate undated section of the blog index. The repository currently contains 138 files under `assets/images/`, including the logo, article illustrations and photographs, and four team portraits integrated into the Our Team page. Article image references have been converted to local paths using Jekyll's `relative_url` filter; the latest full article scan found no remaining references to WordPress-hosted image files. The six newly migrated technical articles also have their selected images copied into `assets/images/` and use local `relative_url` paths. One source image for the xtUML in the Field article was a zero-byte file in the archive and has been omitted; the other four model images are local. The Panda requirements PDF and self-driving-car paper references have been removed from their respective articles at the user's request. YouTube embeds remain intentional third-party dependencies.
+All 111 migrated articles retain their original paths. Articles with verified dates display those dates; articles whose dates have not yet been verified are kept in a separate undated section of the blog index. The repository currently contains 143 files under `assets/images/`, including the logo, article illustrations and photographs, and four team portraits integrated into the Our Team page. Article image references have been converted to local paths using Jekyll's `relative_url` filter; the latest full article scan found no remaining references to WordPress-hosted image files. The six newly migrated technical articles also have their selected images copied into `assets/images/` and use local `relative_url` paths. One source image for the xtUML in the Field article was a zero-byte file in the archive and has been omitted; the other four model images are local. The Panda requirements PDF and self-driving-car paper references have been removed from their respective articles at the user's request. YouTube embeds remain intentional third-party dependencies.
 
 ## Next migration phases
 
 1. Review and migrate selected older editorial content from the title-level inventory. Recover reliable publication dates before displaying them in the dated blog index, and avoid duplicate feed/pagination artifacts.
-2. Resolve the one remaining document link that still points to a WordPress upload: the xtUML + UML-RT presentation PDF. That binary is not present in the archived GitHub capture and will need to be obtained from another source before it can be stored locally under `assets/documents/`. The Japanese Backslash Seminar presentation link now points to the public SlideShare copy. The Panda requirements PDF and self-driving-car paper references remain removed as requested.
+2. Resolve the one remaining document link that still points to a WordPress upload: the xtUML + UML-RT presentation PDF. That binary is not present in the archived GitHub capture and will need to be obtained from another source before it can be stored locally under `assets/documents/`. The Japanese Backslash Seminar presentation link now points to the public SlideShare copy. The Einstein's Riddle class diagram and all available illustrations for Union, Three Layers, and Semantic Steps are stored locally. Two original full-size image files linked from Three Layers and Semantic Steps were absent from the archive; the locally preserved article thumbnails are used instead. The Panda requirements PDF and self-driving-car paper references remain removed as requested.
 3. Review external links, downloadable files, and obsolete calls to action.
 4. Check all internal links, images, embeds, and generated URLs on the GitHub Pages preview.
 5. Confirm current company contact details, team roster, and service offerings before custom-domain cutover.
