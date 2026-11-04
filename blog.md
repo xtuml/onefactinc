@@ -19,7 +19,7 @@ permalink: /blog/
       {% assign undated_articles = site.articles | where_exp: "article", "article.archival_date_unknown == true" | sort: "title" %}
       {% for article in dated_articles %}
       <article class="article-list-item{% if article.thumbnail %} has-thumbnail{% endif %}">
-        {% if article.thumbnail %}<img class="article-list-thumbnail" src="{{ article.thumbnail | relative_url }}" alt="{{ article.title | escape }}" loading="lazy">{% endif %}
+        {% if article.thumbnail %}<a class="article-list-thumbnail-link" href="{{ article.url | relative_url }}" aria-label="Read {{ article.title | escape }}"><img class="article-list-thumbnail" src="{{ article.thumbnail | relative_url }}" alt="" loading="lazy"></a>{% endif %}
         <div class="article-list-copy">
           <p class="article-date"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %-d, %Y" }}</time></p>
           <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
@@ -30,7 +30,7 @@ permalink: /blog/
       {% endfor %}
       {% for article in undated_articles %}
       <article class="article-list-item{% if article.thumbnail %} has-thumbnail{% endif %}">
-        {% if article.thumbnail %}<img class="article-list-thumbnail" src="{{ article.thumbnail | relative_url }}" alt="{{ article.title | escape }}" loading="lazy">{% endif %}
+        {% if article.thumbnail %}<a class="article-list-thumbnail-link" href="{{ article.url | relative_url }}" aria-label="Read {{ article.title | escape }}"><img class="article-list-thumbnail" src="{{ article.thumbnail | relative_url }}" alt="" loading="lazy"></a>{% endif %}
         <div class="article-list-copy">
           <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
           {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
