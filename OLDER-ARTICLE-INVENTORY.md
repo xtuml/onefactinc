@@ -88,7 +88,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - **Migrated:** [LEGO in Research](/lego-in-research/) — publication date not yet verified
 - Easy Chair
 - State Save
-- xtUML Days 2018 at MODELS
+- **Migrated:** [xtUML Days 2018 at MODELS](/xtuml-days-2018-at-models/) — publication date not yet verified
 
 ### Page 10
 - **Migrated:** [BeagleBone Black](/beaglebone-black/) — publication date not yet verified
@@ -107,7 +107,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - MT-CPS 18
 
 ### Page 12
-- xtUML Day 2017 Linköping Presentations
+- **Migrated:** [xtUML Day 2017 Linköping Presentations](/xtuml-day-2017-linkoping-presentations/) — publication date not yet verified
 - Doodling
 - Cairo to Indiana
 - **Migrated:** [MODELS 2017 EXE and MDETools](/models-2017-exe-mdetools/) — publication date not yet verified
@@ -120,7 +120,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Backslash Seminar Japan
 - **Migrated:** [Gripen E](/gripen-e/) — publication date not yet verified
 - **Migrated:** [Initial State](/initial-state/) — publication date not yet verified
-- xtUML Day 2017 UK
+- **Migrated:** [xtUML Day 2017 UK](/xtuml-day-2017-uk/) — publication date not yet verified
 
 ### Page 14
 - **Migrated:** [Jenkins](/jenkins/) — publication date not yet verified
@@ -128,20 +128,20 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Lafayette Business Expo
 - Changing Lanes
 - IEEE HKN SLC 2017
-- xtUML Resources
+- **Migrated:** [xtUML Resources](/xtuml-resources/) — publication date not yet verified
 
 ### Page 15
 - 1F on the Road
 - **Migrated:** [Collapsed Referential](/collapsed-referential/) — publication date not yet verified
 - Modeling Before Programming
 - **Migrated:** [Model API?](/model-api/) — publication date not yet verified
-- Senior Project
+- **Migrated:** [Senior Project](/senior-project/) — publication date not yet verified
 - **Migrated:** [Eclipse Governance](/eclipse-governance/) — publication date not yet verified
 
 ### Page 16
 - **Migrated:** [Always Advancing: xtUML release 5.3.4](/always-advancing-xtuml-release-5-3-4/) — publication date not yet verified
-- xtUML.jp
-- EclipseCON North America 2016
+- **Migrated:** [xtUML.jp](/xtuml-jp/) — publication date not yet verified
+- **Migrated:** [EclipseCON North America 2016](/eclipsecon-north-america-2016/) — publication date not yet verified
 - Issue Tracking with Redmine
 - Action Language Fundamentals
 - Action Language
@@ -182,7 +182,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Memorial Day
 - Future of Executable UML
 - Revision Control
-- ISO26262Day
+- **Migrated:** [ISO26262Day](/iso26262day/) — publication date not yet verified
 - **Migrated:** [Qt and Squish and xtUML Together](/qt-squish-xtuml-together/) — publication date not yet verified
 - State of the One Fact Union
 
