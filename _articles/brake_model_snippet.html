@@ -1,0 +1,13 @@
+---
+title: "Electric Parking Brake Model Snippet"
+archival_date_unknown: true
+permalink: /brake_model_snippet/
+source_url: "https://onefact.net/brake_model_snippet/"
+---
+
+<p><a href="https://onefact.net/wp-content/uploads/2014/12/brake_model.png"><img alt='brake_model-1735599' class="alignnone wp-image-166" src='../wp-content/uploads/2014/12/brake_model-1735599.png' alt="brake_model" width="566" height="384" /></a></p>
+<p>&nbsp;</p>
+<p>In today&#8217;s model snippet of the day I post a first draft class diagram of an <strong>electric parking brake</strong>.  The classes are <em>rotor</em>, <em>caliper</em>, <em>gear box</em> and <em>motor</em>.  Attributes are placed such that the <em>rotor</em> has a <em>diameter</em>.  The <em>caliper</em> is in a <em>current_position.  </em>The <em>gear box</em> must have gears that provide a <em>reduction</em>.  The <em>motor</em> has a <em>power</em> rating and generates a quantity of <em>torque</em>.</p>
+<p>Although not shown, the <em>motor</em> and <em>caliper</em> have lifecycles defined by state machines.  You can tell this because of the state machine glyph on the classes.  The associations labeled <em>R1</em>, <em>R2</em> and <em>R3</em> relate instances of the classes together.</p>
+<p>When the brake <em>motor</em> is activated it <em>drives</em> the <em>gear box</em> providing mechanical advantage through its <em>reduction</em>.  The <em>gear box</em> <em>closes</em> the <em>caliper</em> changing its <em>current_position</em>.  The <em>caliper</em> <em>squeezes</em> the <em>rotor</em> providing frictional forces to prevent the <em>rotor</em> from turning, and thus keeping the car in its parking space.  Note that we can read the associations in the opposite direction and state that the <em>rotor</em> <em>is squeezed by</em> the <em>caliper</em> which <em>is closed by</em> the <em>gear box</em> which <em>is driven</em> <em>by</em> the <em>motor</em>.</p>
+<p><a href="https://onefact.net/wp-content/uploads/2014/12/brake.jpg"><img alt='brake-3495461' class="alignnone size-medium wp-image-167" src='../wp-content/uploads/2014/12/brake-3495461.jpg' alt="brake" width="300" height="203" /></a></p>
