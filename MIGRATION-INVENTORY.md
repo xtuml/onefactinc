@@ -22,11 +22,21 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 
 ## Pages migrated
 
+  - Backslash Seminar Japan — publication date not yet verified
+  - IEEE HKN SLC 2017 — publication date not yet verified
+  - Keynote Speaker — publication date not yet verified
+  - Lafayette Business Expo — publication date not yet verified
+  - Where Does the Name “One Fact” Come From? — publication date not yet verified
+  - PIC Members — publication date not yet verified
+  - Saab Coming to West Lafayette — publication date not yet verified
+  - xtUML Days 2019 UK (1) — publication date not yet verified
+
+
 - `/our-team/` — team listing from the archived Our Team page.
 - `/training-consulting/` — training courses and consulting services.
 - `/support/` — BridgePoint Pro, Service Pro, and custom engineering summary.
 - `/get-in-touch/` — contact information, retaining the archived contact path.
-- One hundred one editorial articles in the `_articles` collection, each retaining its original root-level slug:
+- One hundred nine editorial articles in the `_articles` collection, each retaining its original root-level slug:
   - Mount Kilimanjaro — January 13, 2026
   - Textual Persistence — December 28, 2021
   - Model-Driven Test with TAME — January 25, 2021
