@@ -18,7 +18,7 @@ permalink: /blog/
       {% assign articles = site.articles | sort: "date" | reverse %}
       {% for article in articles %}
       <article class="article-list-item">
-        <p class="article-date"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %-d, %Y" }}</time></p>
+        {% unless article.archival_date_unknown %}<p class="article-date"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %-d, %Y" }}</time></p>{% endunless %}
         <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
         {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
         <a href="{{ article.url | relative_url }}">Read article →</a>
