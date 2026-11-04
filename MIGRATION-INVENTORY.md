@@ -36,7 +36,7 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 - `/training-consulting/` — training courses and consulting services.
 - `/support/` — BridgePoint Pro, Service Pro, and custom engineering summary.
 - `/get-in-touch/` — contact information, retaining the archived contact path.
-- One hundred fifteen editorial articles in the `_articles` collection, each retaining its original root-level slug:
+- One hundred sixteen editorial articles in the `_articles` collection, each retaining its original root-level slug:
   - Blood Pressure Cuff — December 1, 2014
   - Getting Started with GitHub — December 3, 2014
   - Stevenson Screen (Weather Station) — September 1, 2015
@@ -163,7 +163,7 @@ The original site used folder-style paths such as `/our-team/`, `/training-consu
 
 The article collection uses explicit original-style permalinks. Publication dates are stored as metadata and displayed in the blog index and article headers. Article content is cleaned and rewritten as readable HTML/Markdown; WordPress theme wrappers, scripts, and related-post widgets are not copied.
 
-All 115 migrated articles retain their original paths. Articles with verified dates display those dates; articles whose dates have not yet been verified are kept in a separate undated section of the blog index. The repository currently contains 152 files under `assets/images/`, including the logo, article illustrations and photographs, and four team portraits integrated into the Our Team page. Article image references have been converted to local paths using Jekyll's `relative_url` filter; the latest full article scan found no remaining references to WordPress-hosted image files. The six previously migrated technical articles and the Stevenson Screen weather-station article have their selected images copied into `assets/images/` and use local `relative_url` paths. One source image for the xtUML in the Field article was a zero-byte file in the archive and has been omitted; the other four model images are local. The Panda requirements PDF and self-driving-car paper references have been removed from their respective articles at the user's request. YouTube embeds remain intentional third-party dependencies.
+All 116 migrated articles retain their original paths. Articles with verified dates display those dates; articles whose dates have not yet been verified are kept in a separate undated section of the blog index. The repository currently contains 153 files under `assets/images/`, including the logo, article illustrations and photographs, and four team portraits integrated into the Our Team page. Article image references have been converted to local paths using Jekyll's `relative_url` filter; the latest full article scan found no remaining references to WordPress-hosted image files. The six previously migrated technical articles and the Stevenson Screen weather-station article have their selected images copied into `assets/images/` and use local `relative_url` paths. One source image for the xtUML in the Field article was a zero-byte file in the archive and has been omitted; the other four model images are local. The Panda requirements PDF and self-driving-car paper references have been removed from their respective articles at the user's request. YouTube embeds remain intentional third-party dependencies.
 
 ## Next migration phases
 
