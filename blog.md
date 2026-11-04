@@ -15,10 +15,18 @@ permalink: /blog/
 <section class="section">
   <div class="container">
     <div class="article-list">
-      {% assign articles = site.articles | sort: "date" | reverse %}
-      {% for article in articles %}
+      {% assign dated_articles = site.articles | where_exp: "article", "article.archival_date_unknown != true" | sort: "date" | reverse %}
+      {% assign undated_articles = site.articles | where_exp: "article", "article.archival_date_unknown == true" | sort: "title" %}
+      {% for article in dated_articles %}
       <article class="article-list-item">
-        {% unless article.archival_date_unknown %}<p class="article-date"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %-d, %Y" }}</time></p>{% endunless %}
+        <p class="article-date"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %-d, %Y" }}</time></p>
+        <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
+        {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
+        <a href="{{ article.url | relative_url }}">Read article →</a>
+      </article>
+      {% endfor %}
+      {% for article in undated_articles %}
+      <article class="article-list-item">
         <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
         {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
         <a href="{{ article.url | relative_url }}">Read article →</a>
