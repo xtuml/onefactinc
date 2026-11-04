@@ -157,7 +157,7 @@ All 111 migrated articles retain their original paths. Articles with verified da
 ## Next migration phases
 
 1. Review and migrate selected older editorial content from the title-level inventory. Recover reliable publication dates before displaying them in the dated blog index, and avoid duplicate feed/pagination artifacts.
-2. Resolve the two remaining document links that still point to WordPress uploads: the Japanese Backslash Seminar PowerPoint and the xtUML + UML-RT presentation PDF. Neither binary is present in the archived GitHub capture, so they must be obtained from another source before they can be stored locally under `assets/downloads/`. The Panda requirements PDF and self-driving-car paper references remain removed as requested.
+2. Resolve the one remaining document link that still points to a WordPress upload: the xtUML + UML-RT presentation PDF. That binary is not present in the archived GitHub capture and will need to be obtained from another source before it can be stored locally under `assets/documents/`. The Japanese Backslash Seminar presentation link now points to the public SlideShare copy. The Panda requirements PDF and self-driving-car paper references remain removed as requested.
 3. Review external links, downloadable files, and obsolete calls to action.
 4. Check all internal links, images, embeds, and generated URLs on the GitHub Pages preview.
 5. Confirm current company contact details, team roster, and service offerings before custom-domain cutover.

@@ -117,7 +117,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 ### Page 13
 - One Fact Etch
 - **Migrated:** [Academy of Global Engineering](/academy-global-engineering/) — publication date not yet verified
-- Backslash Seminar Japan
+- **Migrated:** [Backslash Seminar Japan](/backslash-seminar-japan/) — publication date not yet verified; Japanese presentation now links to its public SlideShare copy rather than the old WordPress upload.
 - **Migrated:** [Gripen E](/gripen-e/) — publication date not yet verified
 - **Migrated:** [Initial State](/initial-state/) — publication date not yet verified
 - **Migrated:** [xtUML Day 2017 UK](/xtuml-day-2017-uk/) — publication date not yet verified
