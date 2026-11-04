@@ -2,6 +2,7 @@
 title: "Continuous Integration"
 date: 2019-04-03
 description: "A lightweight, automated engineering workflow connecting issue tracking, Git branches, pull requests, builds, tests, and releases."
+thumbnail: "/assets/images/awsgithub-1024x481-2197247.png"
 permalink: /continuous-integration/
 source_url: "https://xtuml.github.io/onefactnet/continuous-integration/"
 ---
