@@ -1,0 +1,16 @@
+---
+title: "Experiment"
+archival_date_unknown: true
+permalink: /experiment/
+source_url: "https://onefact.net/experiment/"
+---
+
+<p><a href="https://onefact.net/wp-content/uploads/2015/10/experiment4.gif"><img alt='experiment4-300x193-2198185' class="size-medium wp-image-489 alignleft" src='../wp-content/uploads/2015/10/experiment4-300x193-2198185.gif' alt="experiment4" width="300" height="193" /></a>Each <em>experiment</em> has a <em>name</em> and <em>&#8216;runs on&#8217;</em> a <em>timeline</em>.<br />
+A <em>timeline</em> <em>&#8216;has first&#8217; timeline event</em> and may be <em>&#8216;is running&#8217;</em> a current <em>timeline event</em>.<br />
+A <em>timeline event</em> is one of <em>waveform</em>, <em>data acquisition</em> or <em>program</em>.</p>
+<figure id="attachment_495" aria-describedby="caption-attachment-495" style="width: 786px" class="wp-caption alignnone"><a href="https://onefact.net/wp-content/uploads/2015/10/experiment.png"><img alt='experiment-3061321' class="wp-image-495 size-full" src='../wp-content/uploads/2015/10/experiment-3061321.png' alt="experiment" width="786" height="587" /></a><figcaption id="caption-attachment-495" class="wp-caption-text">Experiment Class Diagram</figcaption></figure>
+<p>A <em>timeline</em> has a <em>duration</em> which is calculated as the sum of the durations of the longest<em> timeline event</em> at the latest <em>offset</em>.</p>
+<p>A <em>timeline event</em> <em>&#8216;has first&#8217;</em> <em>segment</em> which may have a <em>buffer</em> that <em>&#8216;buffers&#8217;</em> the <em>segment</em>. A <em>segment</em> is either a <em>reading</em> or a <em>writing</em>.<br />
+The <em>segment</em>s are linked in a sequence (across <em>&#8216;R17.follows&#8217;</em>) to comp<img alt='experiment1-300x238-7531507' class="size-medium wp-image-492 alignright" src='../wp-content/uploads/2015/10/experiment1-300x238-7531507.jpeg' alt="experiment1" width="300" height="238" />ose the various parts of the <em>waveform</em> or <em>data acquisition</em> into <em>writing</em>s or <em>reading</em>s respectively.  This allows for step, ramp and arbitrary waveforms to be written out and various sample rate <em>reading</em>s to be composed.</p>
+<p>This model forms the core of a laboratory instrument that needs to apply a stimulating electrical waveform and measure the response.</p>
+<p>&nbsp;</p>
