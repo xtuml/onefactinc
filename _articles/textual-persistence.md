@@ -29,4 +29,4 @@ The original note invited review of the specification, especially on containment
 
 See the [textual xtUML specification](https://github.com/xtuml/bridgepoint/blob/master/doc-bridgepoint/notes/12330_textual_xtuml/12330_textual_xtuml.adoc) and its [GPS Watch example model](https://github.com/xtuml/bridgepoint/tree/master/doc-bridgepoint/notes/12330_textual_xtuml/example).
 
-
+The original note described the specification as a prerequisite to development and credited the contributors and the original authors of MASL.
