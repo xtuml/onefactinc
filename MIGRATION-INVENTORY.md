@@ -36,7 +36,8 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 - `/training-consulting/` — training courses and consulting services.
 - `/support/` — BridgePoint Pro, Service Pro, and custom engineering summary.
 - `/get-in-touch/` — contact information, retaining the archived contact path.
-- One hundred eleven editorial articles in the `_articles` collection, each retaining its original root-level slug:
+- One hundred twelve editorial articles in the `_articles` collection, each retaining its original root-level slug:
+  - Einstein's Riddle — April 26, 2018
   - Mount Kilimanjaro — January 13, 2026
   - Textual Persistence — December 28, 2021
   - Model-Driven Test with TAME — January 25, 2021
@@ -152,7 +153,7 @@ The original site used folder-style paths such as `/our-team/`, `/training-consu
 
 The article collection uses explicit original-style permalinks. Publication dates are stored as metadata and displayed in the blog index and article headers. Article content is cleaned and rewritten as readable HTML/Markdown; WordPress theme wrappers, scripts, and related-post widgets are not copied.
 
-All 111 migrated articles retain their original paths. Articles with verified dates display those dates; articles whose dates have not yet been verified are kept in a separate undated section of the blog index. The repository currently contains 137 files under `assets/images/`, including the logo, article illustrations and photographs, and four team portraits integrated into the Our Team page. Article image references have been converted to local paths using Jekyll's `relative_url` filter; the latest full article scan found no remaining references to WordPress-hosted image files. The six newly migrated technical articles also have their selected images copied into `assets/images/` and use local `relative_url` paths. One source image for the xtUML in the Field article was a zero-byte file in the archive and has been omitted; the other four model images are local. The Panda requirements PDF and self-driving-car paper references have been removed from their respective articles at the user's request. YouTube embeds remain intentional third-party dependencies.
+All 111 migrated articles retain their original paths. Articles with verified dates display those dates; articles whose dates have not yet been verified are kept in a separate undated section of the blog index. The repository currently contains 138 files under `assets/images/`, including the logo, article illustrations and photographs, and four team portraits integrated into the Our Team page. Article image references have been converted to local paths using Jekyll's `relative_url` filter; the latest full article scan found no remaining references to WordPress-hosted image files. The six newly migrated technical articles also have their selected images copied into `assets/images/` and use local `relative_url` paths. One source image for the xtUML in the Field article was a zero-byte file in the archive and has been omitted; the other four model images are local. The Panda requirements PDF and self-driving-car paper references have been removed from their respective articles at the user's request. YouTube embeds remain intentional third-party dependencies.
 
 ## Next migration phases
 
