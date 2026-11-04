@@ -198,7 +198,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 ### Page 23
 - **Migrated:** [Electric Parking Brake Model Snippet](/brake_model_snippet/) — publication date not yet verified
 - Getting Started with GitHub
-- Blood Pressure Cuff
+- **Migrated:** [Blood Pressure Cuff](/blood-pressure-cuff/) — December 1, 2014; classroom example of modeling a blood pressure cuff first on paper and then in BridgePoint.
 - Where Does the Name One Fact Come From?
 - xtUML on MOdeling LAnguages
 - **Migrated:** [Open Source BridgePoint](/open-source-bridgepoint/) — November 17, 2014; announcement of the open-source release and formation of One Fact.
