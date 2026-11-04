@@ -18,6 +18,14 @@ permalink: /our-team/
     <h2>People</h2>
     <div class="team-grid">
       <article class="team-card">
+        <img class="team-photo" src="{{ '/assets/images/levi-starrett.jpg' | relative_url }}" alt="Portrait of Levi Starrett" loading="lazy">
+        <div class="team-details">
+          <h3>Levi Starrett</h3>
+          <p class="team-role">President and CEO</p>
+          <p><a href="mailto:levi.starrett@onefact.net">levi.starrett@onefact.net</a></p>
+        </div>
+      </article>
+      <article class="team-card">
         <img class="team-photo" src="{{ '/assets/images/cortland-starrett.jpg' | relative_url }}" alt="Portrait of Cortland Starrett" loading="lazy">
         <div class="team-details">
           <h3>Cortland Starrett</h3>
@@ -39,14 +47,6 @@ permalink: /our-team/
           <h3>Keith Brown</h3>
           <p class="team-role">Customer Support Manager</p>
           <p><a href="mailto:keith.brown@onefact.net">keith.brown@onefact.net</a></p>
-        </div>
-      </article>
-      <article class="team-card">
-        <img class="team-photo" src="{{ '/assets/images/levi-starrett.jpg' | relative_url }}" alt="Portrait of Levi Starrett" loading="lazy">
-        <div class="team-details">
-          <h3>Levi Starrett</h3>
-          <p class="team-role">President and CEO</p>
-          <p><a href="mailto:levi.starrett@onefact.net">levi.starrett@onefact.net</a></p>
         </div>
       </article>
     </div>
