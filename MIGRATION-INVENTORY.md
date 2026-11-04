@@ -26,7 +26,7 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 - `/training-consulting/` — training courses and consulting services.
 - `/support/` — BridgePoint Pro, Service Pro, and custom engineering summary.
 - `/get-in-touch/` — contact information, retaining the archived contact path.
-- Fifty-seven editorial articles in the `_articles` collection, each retaining its original root-level slug:
+- Sixty-one editorial articles in the `_articles` collection, each retaining its original root-level slug:
   - Mount Kilimanjaro — January 13, 2026
   - Textual Persistence — December 28, 2021
   - Model-Driven Test with TAME — January 25, 2021
@@ -84,6 +84,10 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
   - 2 Views — publication date not yet verified
   - Good Language — publication date not yet verified
   - Applications then Models then Tools — publication date not yet verified
+  - Incremental, Always Advancing — publication date not yet verified
+  - Model Translation FAQs — publication date not yet verified
+  - BridgePoint is Moving to Eclipse 4.4 (Luna) — publication date not yet verified
+  - Qt and Squish and xtUML Together — publication date not yet verified
 - `/blog/` — generated index of migrated articles, dated articles newest-first followed by undated articles alphabetically.
 
 The ten newest article dates came from the archived WordPress RSS feed. Dates for the older migrated articles were verified against the archived WordPress REST API records. Additional candidates remain inventoried from blog pagination pages 2–23 in [OLDER-ARTICLE-INVENTORY.md](OLDER-ARTICLE-INVENTORY.md).
@@ -96,7 +100,7 @@ The original site used folder-style paths such as `/our-team/`, `/training-consu
 
 The article collection uses explicit original-style permalinks. Publication dates are stored as metadata and displayed in the blog index and article headers. Article content is cleaned and rewritten as readable HTML/Markdown; WordPress theme wrappers, scripts, and related-post widgets are not copied.
 
-All 57 migrated articles retain their original paths. Articles with verified dates display those dates; articles whose dates have not yet been verified are kept in a separate undated section of the blog index. Twenty-six image assets used by the articles have been copied into this repository under `assets/images/`, and article image references use Jekyll's `relative_url` filter. Four team portraits from the archived Our Team page have also been copied into `assets/images/` and integrated into the new page. One source image for the xtUML in the Field article was a zero-byte file in the archive and has been omitted; the other four model images are local. The Panda requirements PDF and self-driving-car paper references have been removed from their respective articles at the user's request. YouTube embeds remain intentional third-party dependencies.
+All 61 migrated articles retain their original paths. Articles with verified dates display those dates; articles whose dates have not yet been verified are kept in a separate undated section of the blog index. Twenty-six image assets used by the articles have been copied into this repository under `assets/images/`, and article image references use Jekyll's `relative_url` filter. Four team portraits from the archived Our Team page have also been copied into `assets/images/` and integrated into the new page. One source image for the xtUML in the Field article was a zero-byte file in the archive and has been omitted; the other four model images are local. The Panda requirements PDF and self-driving-car paper references have been removed from their respective articles at the user's request. YouTube embeds remain intentional third-party dependencies.
 
 ## Next migration phases
 
