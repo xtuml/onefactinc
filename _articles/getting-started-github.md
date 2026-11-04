@@ -2,6 +2,7 @@
 title: "Getting Started with GitHub"
 date: 2014-12-03
 description: "A historical introduction to accessing the BridgePoint source repositories on GitHub and getting started with Git and eGit."
+thumbnail: "/assets/images/github-logo-2013.png"
 permalink: /getting-started-github/
 source_url: "https://onefact.net/getting-started-github/"
 ---
