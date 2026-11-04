@@ -2,6 +2,7 @@
 title: "Requirement Tracing"
 date: 2019-11-21
 description: "Three approaches to tracing requirements through xtUML models, model identifiers, and configuration-management commits."
+thumbnail: "/assets/images/req_tracing-3483090.png"
 permalink: /requirement-tracing/
 source_url: "https://xtuml.github.io/onefactnet/requirement-tracing/"
 ---
