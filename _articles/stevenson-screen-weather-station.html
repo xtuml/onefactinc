@@ -1,0 +1,32 @@
+---
+title: "Stevenson Screen (Weather Station)"
+date: 2015-09-01
+description: "An xtUML model that allocates the functions of a weather station, its sensors, deployment, and MQTT-based communication."
+permalink: /stevenson-screen-weather-station/
+source_url: "https://onefact.net/stevenson-screen-weather-station/"
+---
+
+This model provides a functional allocation for a weather system built around a [Stevenson screen](https://en.wikipedia.org/wiki/Stevenson_screen). Such a weather enclosure contains and protects instrumentation used to measure temperature, humidity, barometric pressure, and specialized derivatives of these measurements.
+
+<figure>
+  <img src="{{ '/assets/images/wx_components-300x224-4429955.png' | relative_url }}" alt="Weather station components">
+  <figcaption>Weather station components</figcaption>
+</figure>
+
+A *barometer*, *hygrometer*, *thermometer*, *psychrometer*, and *dewcell* measure physical factors in the environment. A *thermograph* records temperature and humidity. Each of these delivers its acquired data through a *concentrator* to an internet *host*.
+
+<figure>
+  <img src="{{ '/assets/images/wx_sys-300x232-5724206.png' | relative_url }}" alt="Weather system deployment configuration">
+  <figcaption>System deployment configuration</figcaption>
+</figure>
+
+The first diagram shows the “parts” of the system abstracted as UML components. The second diagram illustrates a deployment configuration of the components interconnected across their interfaces.
+
+The system uses an interface based on Message Queuing Telemetry Transport (MQTT) message brokering.
+
+The host stores recordings in a cloud database. This is a nice example of the *Internet of Things*.
+
+<figure>
+  <img src="{{ '/assets/images/stevenson_screen-219x300-1287837.png' | relative_url }}" alt="Stevenson screen enclosure">
+  <figcaption>Stevenson screen</figcaption>
+</figure>

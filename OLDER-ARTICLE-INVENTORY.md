@@ -167,7 +167,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - **Migrated:** [Models 2015](/models-2015/) — publication date not yet verified
 - **Migrated:** [Autosampler](/autosampler/) — publication date not yet verified
 - football (futbol, soccer)
-- Stevenson Screen (Weather Station)
+- **Migrated:** [Stevenson Screen (Weather Station)](/stevenson-screen-weather-station/) — September 1, 2015; xtUML functional allocation and deployment model for a weather station using MQTT.
 - **Migrated:** [xtUML + UML-RT](/xtuml-uml-rt/) — publication date not yet verified
 
 ### Page 20
