@@ -5,6 +5,6 @@ permalink: /simulated-time/
 source_url: "https://onefact.net/simulated-time/"
 ---
 
-<p><img class="size-medium wp-image-1003 alignleft" src="https://onefact.net/wp-content/uploads/2018/06/spiral_time-300x169-2076975.jpg" alt="" width="300" height="169" /></p>
+<p><img class="size-medium wp-image-1003 alignleft" src="{{ '/assets/images/spiral_time.jpg' | relative_url }}" alt="" width="300" height="169" /></p>
 <p>Simulated Time in MC-3020 implements a form of discrete event simulation. In simulated time mode, no external clock is read. The application runs as fast as the architecture allows. The time base is derived from timers used to cause functional delays in the production application.</p>
 <p>SystemC and Verifier both support modes where time is &#8220;simulated&#8221;. In these environments, &#8220;wall clock&#8221; is not used. The timers in the system advance the system time in sequence of expiration. This is convenient for very fast (short-running) and for very slow (long-running) applications.</p>
