@@ -94,7 +94,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - **Migrated:** [BeagleBone Black](/beaglebone-black/) — publication date not yet verified
 - **Migrated:** [Simulated Time](/simulated-time/) — publication date not yet verified; explains discrete-event simulated-time execution in MC-3020.
 - **Migrated:** [Chief Software Architect](/chief-software-architect/) — publication date not yet verified
-- Einstein's Riddle Solved
+- **Migrated:** [Einstein's Riddle Solved](/einsteins-riddle-solved/) — April 26, 2018; companion post showing the BridgePoint Verifier solution and handwritten working notes.
 - **Migrated:** [Einstein's Riddle](/einsteins-riddle/) — April 26, 2018; the Zebra Puzzle with its original class diagram stored locally.
 - **Migrated:** [Symmetric Difference](/symmetric-difference/) — publication date not yet verified; defines symmetric difference for sets, with a local diagram.
 
