@@ -43,11 +43,11 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - x at the Eye
 
 ### Page 4
-- Modeling Education
-- MDD at Shinshu U
-- MODELS
-- xtUML Days 2019 UK Presentations
-- xtUML Days 2019 In Motion
+- **Migrated:** [Modeling Education](/modeling-education/) — publication date not yet verified
+- **Migrated:** [MDD at Shinshu U](/mdd-at-shinshu-u/) — publication date not yet verified
+- **Migrated:** [MODELS](/models/) — publication date not yet verified
+- **Migrated:** [xtUML Days 2019 UK Presentations](/xtuml-days-2019-uk-presentations/) — publication date not yet verified
+- **Migrated:** [xtUML Days 2019 In Motion](/xtuml-days-2019-in-motion/) — publication date not yet verified
 - xtUML Days next week
 
 ### Page 5
@@ -69,10 +69,10 @@ The links below are titles discovered in the archived blog pagination. Some may 
 ### Page 7
 - Winter Computer Science Intern
 - Amazon Web Services (AWS) Lambda
-- BridgePoint Pro v6.16
+- **Migrated:** [BridgePoint Pro v6.16](/bridgepoint-pro-v6-16/) — publication date not yet verified
 - 1,3,5+ Application, Dialects, Architectures
-- Papyrus Industry Consortium 2019
-- xtUML in Portsmouth UK
+- **Migrated:** [Papyrus Industry Consortium 2019](/papyrus-industry-consortium-2019/) — publication date not yet verified
+- **Migrated:** [xtUML in Portsmouth UK](/xtuml-in-portsmouth-uk/) — publication date not yet verified
 
 ### Page 8
 - **Migrated:** [Big Machine Big Model](/big-machine-big-model/) — publication date not yet verified
