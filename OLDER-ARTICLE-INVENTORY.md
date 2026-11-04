@@ -48,7 +48,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - **Migrated:** [MODELS](/models/) — publication date not yet verified
 - **Migrated:** [xtUML Days 2019 UK Presentations](/xtuml-days-2019-uk-presentations/) — publication date not yet verified
 - **Migrated:** [xtUML Days 2019 In Motion](/xtuml-days-2019-in-motion/) — publication date not yet verified
-- xtUML Days next week
+- **Migrated:** [xtUML Days next week](/xtuml-days-next-week/) — publication date not yet verified
 
 ### Page 5
 - Shlaer-Mellor Runtime
@@ -93,7 +93,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 ### Page 10
 - **Migrated:** [BeagleBone Black](/beaglebone-black/) — publication date not yet verified
 - Simulated Time
-- Chief Software Architect
+- **Migrated:** [Chief Software Architect](/chief-software-architect/) — publication date not yet verified
 - Einstein's Riddle Solved
 - Einstein's Riddle
 - Symmetric Difference
@@ -103,7 +103,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Intersection
 - Union
 - New Model
-- Community Chat
+- **Migrated:** [Community Chat](/community-chat/) — publication date not yet verified
 - MT-CPS 18
 
 ### Page 12
@@ -116,7 +116,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 
 ### Page 13
 - One Fact Etch
-- Academy of Global Engineering
+- **Migrated:** [Academy of Global Engineering](/academy-global-engineering/) — publication date not yet verified
 - Backslash Seminar Japan
 - **Migrated:** [Gripen E](/gripen-e/) — publication date not yet verified
 - **Migrated:** [Initial State](/initial-state/) — publication date not yet verified
@@ -151,16 +151,16 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - **Migrated:** [xtUML Interfaces](/xtuml-interfaces/) — publication date not yet verified
 - **Migrated:** [2 Views](/2-views/) — publication date not yet verified
 - Happy New Year 2016
-- xtUML 2015 Is History
+- **Migrated:** [xtUML 2015 Is History](/xtuml-2015/) — publication date not yet verified
 - Ready for xtUML 2015!
 
 ### Page 18
 - **Migrated:** [Good Language](/good-language/) — publication date not yet verified
-- Escher
+- **Migrated:** [Escher](/escher/) — publication date not yet verified
 - **Migrated:** [Applications then Models then Tools](/applications-then-models-then-tools/) — publication date not yet verified
 - Conference and Attendee
 - **Migrated:** [Announcing xtUML 2015](/announcing-xtuml-2015/) — publication date not yet verified
-- Experiment
+- **Migrated:** [Experiment](/experiment/) — publication date not yet verified
 
 ### Page 19
 - UML-RT + xtUML
