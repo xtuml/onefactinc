@@ -173,9 +173,9 @@ The links below are titles discovered in the archived blog pagination. Some may 
 ### Page 20
 - Semantic Steps
 - Three Layers
-- Incremental, Always Advancing
-- Model Translation FAQs
-- BridgePoint is moving to Eclipse 4.4 (Luna)
+- **Migrated:** [Incremental, Always Advancing](/incremental-always-advancing/) — publication date not yet verified
+- **Migrated:** [Model Translation FAQs](/model-translation-faqs/) — publication date not yet verified
+- **Migrated:** [BridgePoint is moving to Eclipse 4.4 (Luna)](/bridgepoint-is-moving-to-eclipse-4-4-luna/) — publication date not yet verified
 - Let's Chat! Meet the One Fact CEO
 
 ### Page 21
@@ -183,7 +183,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Future of Executable UML
 - Revision Control
 - ISO26262Day
-- Qt and Squish and xtUML Together
+- **Migrated:** [Qt and Squish and xtUML Together](/qt-squish-xtuml-together/) — publication date not yet verified
 - State of the One Fact Union
 
 ### Page 22
