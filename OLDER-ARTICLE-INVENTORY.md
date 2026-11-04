@@ -55,7 +55,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Keynote Speaker
 - **Migrated:** [Find a Bug; Fix a Bug](/find-a-bug-fix-a-bug/) — publication date not yet verified
 - xtUML Days 2019 UK
-- AUTOSAR
+- **Migrated:** [AUTOSAR](/autosar/) — publication date not yet verified
 - Saab Coming to West Lafayette
 
 ### Page 6
@@ -123,7 +123,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - xtUML Day 2017 UK
 
 ### Page 14
-- Jenkins
+- **Migrated:** [Jenkins](/jenkins/) — publication date not yet verified
 - Purdue Sunset
 - Lafayette Business Expo
 - Changing Lanes
@@ -132,9 +132,9 @@ The links below are titles discovered in the archived blog pagination. Some may 
 
 ### Page 15
 - 1F on the Road
-- Collapsed Referential
+- **Migrated:** [Collapsed Referential](/collapsed-referential/) — publication date not yet verified
 - Modeling Before Programming
-- Model API?
+- **Migrated:** [Model API?](/model-api/) — publication date not yet verified
 - Senior Project
 - Eclipse Governance
 
@@ -148,16 +148,16 @@ The links below are titles discovered in the archived blog pagination. Some may 
 
 ### Page 17
 - PIC Members
-- xtUML Interfaces
-- 2 Views
+- **Migrated:** [xtUML Interfaces](/xtuml-interfaces/) — publication date not yet verified
+- **Migrated:** [2 Views](/2-views/) — publication date not yet verified
 - Happy New Year 2016
 - xtUML 2015 Is History
 - Ready for xtUML 2015!
 
 ### Page 18
-- Good Language
+- **Migrated:** [Good Language](/good-language/) — publication date not yet verified
 - Escher
-- Applications then Models then Tools
+- **Migrated:** [Applications then Models then Tools](/applications-then-models-then-tools/) — publication date not yet verified
 - Conference and Attendee
 - Announcing xtUML 2015
 - Experiment
