@@ -84,7 +84,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 
 ### Page 9
 - **Migrated:** [Super/Sub](/super-sub/) — publication date not yet verified
-- Eclipse Oxygen
+- **Migrated:** [Eclipse Oxygen](/eclipse-oxygen/) — publication date not yet verified
 - **Migrated:** [LEGO in Research](/lego-in-research/) — publication date not yet verified
 - Easy Chair
 - State Save
@@ -111,7 +111,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Doodling
 - Cairo to Indiana
 - MODELS 2017 EXE and MDETools
-- Eclipse Mania
+- **Migrated:** [Eclipse Mania](/eclipse-mania/) — publication date not yet verified
 - Model-Based Testing of Self-Driving Cars
 
 ### Page 13
@@ -136,7 +136,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Modeling Before Programming
 - **Migrated:** [Model API?](/model-api/) — publication date not yet verified
 - Senior Project
-- Eclipse Governance
+- **Migrated:** [Eclipse Governance](/eclipse-governance/) — publication date not yet verified
 
 ### Page 16
 - Always Advancing: xtUML release 5.3.4
@@ -190,7 +190,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Collaborative Development using eGit
 - Dream
 - Modeling Domain Specific Languages
-- Returning Strings in C
+- **Migrated:** [Returning Strings in C](/returning-strings-c/) — publication date not yet verified
 - Old Testament
 - Happy New Year 2015
 
