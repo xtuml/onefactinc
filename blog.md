@@ -18,18 +18,24 @@ permalink: /blog/
       {% assign dated_articles = site.articles | where_exp: "article", "article.archival_date_unknown != true" | sort: "date" | reverse %}
       {% assign undated_articles = site.articles | where_exp: "article", "article.archival_date_unknown == true" | sort: "title" %}
       {% for article in dated_articles %}
-      <article class="article-list-item">
-        <p class="article-date"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %-d, %Y" }}</time></p>
-        <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
-        {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
-        <a href="{{ article.url | relative_url }}">Read article →</a>
+      <article class="article-list-item{% if article.thumbnail %} has-thumbnail{% endif %}">
+        {% if article.thumbnail %}<img class="article-list-thumbnail" src="{{ article.thumbnail | relative_url }}" alt="{{ article.title | escape }}" loading="lazy">{% endif %}
+        <div class="article-list-copy">
+          <p class="article-date"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %-d, %Y" }}</time></p>
+          <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
+          {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
+          <a href="{{ article.url | relative_url }}">Read article →</a>
+        </div>
       </article>
       {% endfor %}
       {% for article in undated_articles %}
-      <article class="article-list-item">
-        <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
-        {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
-        <a href="{{ article.url | relative_url }}">Read article →</a>
+      <article class="article-list-item{% if article.thumbnail %} has-thumbnail{% endif %}">
+        {% if article.thumbnail %}<img class="article-list-thumbnail" src="{{ article.thumbnail | relative_url }}" alt="{{ article.title | escape }}" loading="lazy">{% endif %}
+        <div class="article-list-copy">
+          <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
+          {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
+          <a href="{{ article.url | relative_url }}">Read article →</a>
+        </div>
       </article>
       {% endfor %}
     </div>
