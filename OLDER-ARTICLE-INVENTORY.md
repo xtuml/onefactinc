@@ -70,14 +70,14 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Winter Computer Science Intern
 - Amazon Web Services (AWS) Lambda
 - **Migrated:** [BridgePoint Pro v6.16](/bridgepoint-pro-v6-16/) — publication date not yet verified
-- 1,3,5+ Application, Dialects, Architectures
+- **Migrated:** [1,3,5+ Application, Dialects, Architectures](/135-application-dialects-architectures/) — publication date not yet verified
 - **Migrated:** [Papyrus Industry Consortium 2019](/papyrus-industry-consortium-2019/) — publication date not yet verified
 - **Migrated:** [xtUML in Portsmouth UK](/xtuml-in-portsmouth-uk/) — publication date not yet verified
 
 ### Page 8
 - **Migrated:** [Big Machine Big Model](/big-machine-big-model/) — publication date not yet verified
 - Sunrise on MODELS
-- xtUML at Shinshu 2018
+- **Migrated:** [xtUML at Shinshu 2018](/xtuml-at-shinshu-2018/) — publication date not yet verified
 - **Migrated:** [Debugging Sumo](/debugging-sumo/) — publication date not yet verified
 - **Migrated:** [C Model Compiler Summer](/c-model-compiler-summer/) — publication date not yet verified
 - Shinshu Class
@@ -110,7 +110,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - xtUML Day 2017 Linköping Presentations
 - Doodling
 - Cairo to Indiana
-- MODELS 2017 EXE and MDETools
+- **Migrated:** [MODELS 2017 EXE and MDETools](/models-2017-exe-mdetools/) — publication date not yet verified
 - **Migrated:** [Eclipse Mania](/eclipse-mania/) — publication date not yet verified
 - Model-Based Testing of Self-Driving Cars
 
@@ -139,7 +139,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - **Migrated:** [Eclipse Governance](/eclipse-governance/) — publication date not yet verified
 
 ### Page 16
-- Always Advancing: xtUML release 5.3.4
+- **Migrated:** [Always Advancing: xtUML release 5.3.4](/always-advancing-xtuml-release-5-3-4/) — publication date not yet verified
 - xtUML.jp
 - EclipseCON North America 2016
 - Issue Tracking with Redmine
@@ -159,16 +159,16 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Escher
 - **Migrated:** [Applications then Models then Tools](/applications-then-models-then-tools/) — publication date not yet verified
 - Conference and Attendee
-- Announcing xtUML 2015
+- **Migrated:** [Announcing xtUML 2015](/announcing-xtuml-2015/) — publication date not yet verified
 - Experiment
 
 ### Page 19
 - UML-RT + xtUML
-- Models 2015
+- **Migrated:** [Models 2015](/models-2015/) — publication date not yet verified
 - **Migrated:** [Autosampler](/autosampler/) — publication date not yet verified
 - football (futbol, soccer)
 - Stevenson Screen (Weather Station)
-- xtUML + UML-RT
+- **Migrated:** [xtUML + UML-RT](/xtuml-uml-rt/) — publication date not yet verified
 
 ### Page 20
 - Semantic Steps
@@ -187,7 +187,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - State of the One Fact Union
 
 ### Page 22
-- Collaborative Development using eGit
+- **Migrated:** [Collaborative Development using eGit](/collaborative-development-using-egit/) — publication date not yet verified
 - Dream
 - Modeling Domain Specific Languages
 - **Migrated:** [Returning Strings in C](/returning-strings-c/) — publication date not yet verified
