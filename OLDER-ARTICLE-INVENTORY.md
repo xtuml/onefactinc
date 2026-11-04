@@ -60,7 +60,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 
 ### Page 6
 - State Diagram, State Table
-- Model Compiler Builders
+- **Migrated:** [Model Compiler Builders](/model-compiler-builders/) — publication date not yet verified; historical instructions for upgrading model compiler projects after a builder change.
 - Continuous Integration
 - Sorting Mail
 - **Migrated:** [We Like AsciiDoc](/we-like-asciidoc/) — publication date not yet verified
@@ -87,20 +87,20 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - **Migrated:** [Eclipse Oxygen](/eclipse-oxygen/) — publication date not yet verified
 - **Migrated:** [LEGO in Research](/lego-in-research/) — publication date not yet verified
 - Easy Chair
-- State Save
+- **Migrated:** [State Save](/state-save/) — publication date not yet verified; explains the MC-3020 state snapshot feature and links to its demonstration video.
 - **Migrated:** [xtUML Days 2018 at MODELS](/xtuml-days-2018-at-models/) — publication date not yet verified
 
 ### Page 10
 - **Migrated:** [BeagleBone Black](/beaglebone-black/) — publication date not yet verified
-- Simulated Time
+- **Migrated:** [Simulated Time](/simulated-time/) — publication date not yet verified; explains discrete-event simulated-time execution in MC-3020.
 - **Migrated:** [Chief Software Architect](/chief-software-architect/) — publication date not yet verified
 - Einstein's Riddle Solved
 - Einstein's Riddle
-- Symmetric Difference
+- **Migrated:** [Symmetric Difference](/symmetric-difference/) — publication date not yet verified; defines symmetric difference for sets, with a local diagram.
 
 ### Page 11
-- Difference
-- Intersection
+- **Migrated:** [Difference](/difference/) — publication date not yet verified; defines set difference, with a local diagram.
+- **Migrated:** [Intersection](/intersection/) — publication date not yet verified; defines set intersection, with a local diagram.
 - Union
 - New Model
 - **Migrated:** [Community Chat](/community-chat/) — publication date not yet verified
