@@ -1,0 +1,60 @@
+---
+title: "Senior Project"
+archival_date_unknown: true
+permalink: /senior-project/
+source_url: "https://onefact.net/senior-project/"
+---
+
+<p><a href="https://onefact.net/wp-content/uploads/2016/06/seniorproject.png"><img alt='seniorproject-7446256' class="alignnone size-full wp-image-763" src='../wp-content/uploads/2016/06/seniorproject-7446256.png' alt="seniorproject" width="3583" height="1068" /></a>Hey Professor,</p>
+<div>In this email I&#8217;m going to give you some background information on xtUML, the link to what we call an &#8220;analysis note&#8221; (the first stage of our engineering process), and my proposal for a delivery schedule.</div>
+<div></div>
+<div>The analysis note you will read does not make much sense unless you are familiar with xtUML and BridgePoint and some of the ins and outs of how it all works.</div>
+<div></div>
+<div>xtUML is a language based on the computer science concept of object oriented analysis (OOA) and the Shlaer-Mellor method of software development. This method was created by Sally Shlaer and Steve Mellor in the late 80s. It focuses on first modeling data in classes and associations between classes, then modeling behavior in states, events, and transitions, and finally modeling actions in a textual language.</div>
+<div></div>
+<div>BridgePoint is an open source tool based on eclipse that allows users to edit xtUML models. It also includes Verifier, which allows users to interpretively execute models and a set of model compilers that generate code from a model to a chosen architecture/language.</div>
+<div></div>
+<div>xtUML itself is modeled using xtUML (this is referred to commonly as the meta-model or the OOAofOOA). The editor creates instances of the classes in this model to build application models. Model compilers can query this model to generate code. For example, a model compiler can ask for all the instances of class <em>Attribute</em>, and generate a line of Java code for a member in a Java class.</div>
+<div></div>
+<div>Historically, model compilers have been written in a template language called RSL. RSL queries the meta-model instances and generates code based on the attributes and relationships of those instances. This is an effective way to generate code, but it is slow for large models because it is interpreted.</div>
+<div></div>
+<div>The main compiler we use (MC3020) generates C code. A handful of years ago, a new partial compiler called <em>mcmc</em> was introduced based on MC320. This compiler is actually compiled with BridgePoint (more levels of meta!) and it is very fast, but it only compiles the action language portion of the xtUML model (textual language). Overall it decreases the build time for a large model significantly (order of 10 in some cases).</div>
+<div></div>
+<div>We have another compiler called MC-Java which is used to compile BridgePoint to Java plugins for eclipse. It is quite old and messy and cannot be used for generic Java. There are a lot of problems with MC-Java, but one we can solve now is to extend mcmc to also translate action language to Java. We can integrate this with MC-Java and it should cut our build time down significantly for BridgePoint. This is very desirable right now because a full build of our tool can take almost an hour. This project will greatly help our developers.</div>
+<div></div>
+<div>If you have any more questions about how this works, let me know. You can also look at <a href="../index.html" target="_blank" rel="noopener">onefact.net</a> and <a href="http://xtuml.org/" target="_blank" rel="noopener">xtuml.org</a>for more information.</div>
+<div></div>
+<div>Here is the link to the analysis note:</div>
+<div><a href="https://github.com/leviathan747/mc/tree/8540_java/doc/notes/8540_java/8540_java_ant.md" target="_blank" rel="noopener">https://github.com/<wbr />leviathan747/mc/tree/8540_<wbr />java/doc/notes/8540_java/8540_<wbr />java_ant.md</a></div>
+<div></div>
+<div>There are 8 weeks in the semester. Below is my proposed delivery schedule:</div>
+<div></div>
+<div>Week 1:</div>
+<div>&#8211; Analysis note draft delivered</div>
+<div>&#8211; Deliverable schedule</div>
+<div></div>
+<div>Week 2:</div>
+<div>&#8211; Analysis note complete/reviewed</div>
+<div></div>
+<div>Week 3:</div>
+<div>&#8211; Design note complete/reviewed</div>
+<div></div>
+<div>Week 4:</div>
+<div>&#8211; Test plan delivered</div>
+<div>&#8211; Presentation of One Fact engineering process delivered</div>
+<div></div>
+<div>Week 5:</div>
+<div>&#8211; Implementation status update</div>
+<div></div>
+<div>Week 6:</div>
+<div>&#8211; Implementation complete</div>
+<div>&#8211; Implementation note delivered</div>
+<div></div>
+<div>Week 7:</div>
+<div>&#8211; Testing completed</div>
+<div></div>
+<div>Week 8:</div>
+<div>&#8211; Work promoted</div>
+<div>&#8211; Presentation</div>
+<div></div>
+<div>Some of these terms are specific to our engineering process. I am planning on making some sort of presentation (maybe slides with voiceover or video demo, not sure yet) describing the engineering and review process we employ at One Fact. Let me know if you have any questions before then. I&#8217;d be happy to explain anything.</div>
