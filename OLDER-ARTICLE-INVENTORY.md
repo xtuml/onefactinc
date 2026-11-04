@@ -53,7 +53,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 ### Page 5
 - Shlaer-Mellor Runtime
 - Keynote Speaker
-- Find a Bug; Fix a Bug
+- **Migrated:** [Find a Bug; Fix a Bug](/find-a-bug-fix-a-bug/) — publication date not yet verified
 - xtUML Days 2019 UK
 - AUTOSAR
 - Saab Coming to West Lafayette
@@ -63,7 +63,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Model Compiler Builders
 - Continuous Integration
 - Sorting Mail
-- We Like AsciiDoc
+- **Migrated:** [We Like AsciiDoc](/we-like-asciidoc/) — publication date not yet verified
 - One Fact in Wood
 
 ### Page 7
@@ -75,23 +75,23 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - xtUML in Portsmouth UK
 
 ### Page 8
-- Big Machine Big Model
+- **Migrated:** [Big Machine Big Model](/big-machine-big-model/) — publication date not yet verified
 - Sunrise on MODELS
 - xtUML at Shinshu 2018
-- Debugging Sumo
-- C Model Compiler Summer
+- **Migrated:** [Debugging Sumo](/debugging-sumo/) — publication date not yet verified
+- **Migrated:** [C Model Compiler Summer](/c-model-compiler-summer/) — publication date not yet verified
 - Shinshu Class
 
 ### Page 9
-- Super/Sub
+- **Migrated:** [Super/Sub](/super-sub/) — publication date not yet verified
 - Eclipse Oxygen
-- LEGO in Research
+- **Migrated:** [LEGO in Research](/lego-in-research/) — publication date not yet verified
 - Easy Chair
 - State Save
 - xtUML Days 2018 at MODELS
 
 ### Page 10
-- BeagleBone Black
+- **Migrated:** [BeagleBone Black](/beaglebone-black/) — publication date not yet verified
 - Simulated Time
 - Chief Software Architect
 - Einstein's Riddle Solved
