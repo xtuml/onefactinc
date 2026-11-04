@@ -50,6 +50,5 @@ permalink: /our-team/
         </div>
       </article>
     </div>
-    <p class="caption">Team names, roles, and contact details are carried over from the archived site and should be confirmed before the new site replaces the production site.</p>
   </div>
 </section>
