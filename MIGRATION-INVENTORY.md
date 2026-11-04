@@ -36,8 +36,9 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 - `/training-consulting/` — training courses and consulting services.
 - `/support/` — BridgePoint Pro, Service Pro, and custom engineering summary.
 - `/get-in-touch/` — contact information, retaining the archived contact path.
-- One hundred fifteen editorial articles in the `_articles` collection, each retaining its original root-level slug:
+- One hundred thirteen editorial articles in the `_articles` collection, each retaining its original root-level slug:
   - Einstein's Riddle — April 26, 2018
+  - Einstein's Riddle Solved — April 26, 2018
   - Union — March 1, 2018
   - Semantic Steps — August 7, 2015
   - Three Layers — July 29, 2015
