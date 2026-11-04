@@ -118,8 +118,8 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - One Fact Etch
 - Academy of Global Engineering
 - Backslash Seminar Japan
-- Gripen E
-- Initial State
+- **Migrated:** [Gripen E](/gripen-e/) — publication date not yet verified
+- **Migrated:** [Initial State](/initial-state/) — publication date not yet verified
 - xtUML Day 2017 UK
 
 ### Page 14
@@ -165,7 +165,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 ### Page 19
 - UML-RT + xtUML
 - Models 2015
-- Autosampler
+- **Migrated:** [Autosampler](/autosampler/) — publication date not yet verified
 - football (futbol, soccer)
 - Stevenson Screen (Weather Station)
 - xtUML + UML-RT
@@ -195,7 +195,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Happy New Year 2015
 
 ### Page 23
-- Electric Parking Brake Model Snippet
+- **Migrated:** [Electric Parking Brake Model Snippet](/brake_model_snippet/) — publication date not yet verified
 - Getting Started with GitHub
 - Blood Pressure Cuff
 - Where Does the Name One Fact Come From?
