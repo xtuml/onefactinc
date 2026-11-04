@@ -84,6 +84,14 @@ h2 { margin: 0 0 25px; font-size: clamp(2rem, 4vw, 3.25rem); }
 .article-content blockquote { border-left: 3px solid #168b91; padding-left: 1rem; color: #465467; }
 .article-list { display: grid; gap: 1.5rem; }
 .article-list-item { padding-bottom: 1.5rem; border-bottom: 1px solid #e4e9ee; }
+.article-list-item.has-thumbnail { display: grid; grid-template-columns: 112px minmax(0, 1fr); align-items: start; column-gap: 24px; }
+.article-list-thumbnail { display: block; width: 112px; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; background: var(--mist); }
+.article-list-copy { min-width: 0; }
+.article-list-copy > p:not(.article-date) { margin: .35rem 0 .5rem; color: var(--muted); }
+@media (max-width: 520px) {
+  .article-list-item.has-thumbnail { grid-template-columns: 84px minmax(0, 1fr); column-gap: 16px; }
+  .article-list-thumbnail { width: 84px; }
+}
 .article-list-item h2 { margin: 0 0 .5rem; font-size: 1.4rem; }
 .article-source { margin-top: 3rem; font-size: .85rem; color: #687586; }
 
