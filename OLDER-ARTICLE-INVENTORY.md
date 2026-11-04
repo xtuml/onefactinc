@@ -80,7 +80,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - **Migrated:** [xtUML at Shinshu 2018](/xtuml-at-shinshu-2018/) — publication date not yet verified
 - **Migrated:** [Debugging Sumo](/debugging-sumo/) — publication date not yet verified
 - **Migrated:** [C Model Compiler Summer](/c-model-compiler-summer/) — publication date not yet verified
-- Shinshu Class
+- **Migrated:** [Shinshu Class](/shinshu-class/) — publication date not yet verified; historical announcement of One Fact-led xtUML training at Shinshu University.
 
 ### Page 9
 - **Migrated:** [Super/Sub](/super-sub/) — publication date not yet verified
