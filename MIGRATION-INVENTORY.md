@@ -36,7 +36,7 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
 - `/training-consulting/` — training courses and consulting services.
 - `/support/` — BridgePoint Pro, Service Pro, and custom engineering summary.
 - `/get-in-touch/` — contact information, retaining the archived contact path.
-- One hundred nine editorial articles in the `_articles` collection, each retaining its original root-level slug:
+- One hundred ten editorial articles in the `_articles` collection, each retaining its original root-level slug:
   - Mount Kilimanjaro — January 13, 2026
   - Textual Persistence — December 28, 2021
   - Model-Driven Test with TAME — January 25, 2021
@@ -62,6 +62,7 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
   - Action Language — February 16, 2016
   - Modeling Before Programming — July 4, 2016
   - Modeling Domain Specific Languages — January 12, 2015
+  - Winter Computer Science Intern — publication date not yet verified
   - Modeling Before Programming — publication date not yet verified
   - Open Source BridgePoint — publication date not yet verified
   - Future of Executable UML — publication date not yet verified

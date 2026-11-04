@@ -67,7 +67,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - One Fact in Wood
 
 ### Page 7
-- Winter Computer Science Intern
+- **Migrated:** [Winter Computer Science Intern](/winter-computer-science-intern/) — publication date not yet verified; short company story about a student internship involving modeling and BridgePoint.
 - Amazon Web Services (AWS) Lambda
 - **Migrated:** [BridgePoint Pro v6.16](/bridgepoint-pro-v6-16/) — publication date not yet verified
 - **Migrated:** [1,3,5+ Application, Dialects, Architectures](/135-application-dialects-architectures/) — publication date not yet verified
