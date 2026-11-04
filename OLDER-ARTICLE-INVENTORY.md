@@ -181,8 +181,8 @@ The links below are titles discovered in the archived blog pagination. Some may 
 
 ### Page 21
 - Memorial Day
-- Future of Executable UML
-- Revision Control
+- **Migrated:** [Future of Executable UML](/future-of-executable-uml/) — May 19, 2015; historical perspective on Papyrus-RT and the future of executable modeling.
+- **Migrated:** [Revision Control](/revision-control/) — May 15, 2015; diagram and explanation of engineering revisions, released revisions, and customer service requests.
 - **Migrated:** [ISO26262Day](/iso26262day/) — publication date not yet verified
 - **Migrated:** [Qt and Squish and xtUML Together](/qt-squish-xtuml-together/) — publication date not yet verified
 - State of the One Fact Union
@@ -201,7 +201,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - Blood Pressure Cuff
 - Where Does the Name One Fact Come From?
 - xtUML on MOdeling LAnguages
-- Open Source BridgePoint
+- **Migrated:** [Open Source BridgePoint](/open-source-bridgepoint/) — November 17, 2014; announcement of the open-source release and formation of One Fact.
 
 ## Review notes
 
