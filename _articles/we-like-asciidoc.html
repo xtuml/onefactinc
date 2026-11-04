@@ -1,0 +1,188 @@
+---
+title: "We Like AsciiDoc"
+archival_date_unknown: true
+permalink: /we-like-asciidoc/
+source_url: "https://onefact.net/we-like-asciidoc/"
+---
+
+<p><!DOCTYPE html><br />
+<html lang="en"><br />
+<head><br />
+<meta charset="UTF-8"><br />
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]--><br />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><br />
+<meta name="generator" content="Asciidoctor 1.5.7.1"><br />
+<title>We Like AsciiDoc</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+
+<p></head><br />
+<body class="article"></p>
+<div id="header">
+<h1>We Like AsciiDoc</h1>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_introduction_and_background">1. Introduction and Background</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The BridgePoint development team has used plain ascii text as the primary<br />
+medium for design documentation since the beginning (more than 20 years now).<br />
+Alternate considerations included Microsoft Word, DocBook XML and a desktop<br />
+publishing system called FrameMaker.</p>
+</div>
+<div class="paragraph">
+<p>The BridgePoint engineering process prescribes &#8220;notes&#8221; to be authored at<br />
+various stages of development.  The &#8220;analysis note&#8221; is first except when<br />
+preceded by a user-supplied requirements document.  The analysis note has<br />
+a section which lists the <em>Requirements</em> followed by <em>Analysis</em> commentary<br />
+followed by a section outlining the <em>Work Required</em> and <em>Acceptance Test</em><br />
+criteria.  As development proceeds, a &#8220;design note&#8221; and &#8220;implementation<br />
+note&#8221; follow.  The analysis and design notes are reviewed in meetings<br />
+with minutes taken (again, a document in plain ascii text format).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>= We Like AsciiDoc
+
+== Introduction and Background
+
+The BridgePoint development team has used plain ascii text as the primary
+medium for design documentation since the beginning (more than 20 years now).
+Alternate considerations included Microsoft Word, DocBook XML and a desktop
+publishing system called FrameMaker.
+
+The BridgePoint engineering process prescribes "notes" to be authored at
+various stages of development.  The "analysis note" is first except when</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Example of AsciiDoc Source for This Document</strong></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_why_plain_text_documentation">2. Why Plain Text Documentation?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Another major highlight of the BridgePoint engineering team is a commitment<br />
+to configuration management.  Source code is carefully version-controlled.<br />
+Before using our present git repositories we used RCS, CVS and Subversion.<br />
+We branch for features and bug fixes, commit early and often and protect<br />
+the &#8216;master&#8217; branch jealously.</p>
+</div>
+<div class="paragraph">
+<p>We view design documentation as an artifact of &#8220;source code&#8221;.  We version<br />
+control it so that we can track every change and link those changes to<br />
+specific developers and to specific requirements.</p>
+</div>
+<div class="paragraph">
+<p>Non- plain text documentation is not so easily version controlled, &#8220;diff&#8217;d&#8221;<br />
+and merged.  GUI WYSIWYGs are unwieldy compared to Vi, Emacs and the like.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img alt='githubgraph-5352246' src='../wp-content/uploads/2019/02/githubgraph-5352246.png' alt="xtuml/bridgepoint Repository GitHub Network Graph">
+</div>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/xtuml/bridgepoint/network">BridgePoint git Repository Network Graph</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_enter_markdown">3. Enter Markdown</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Plain ascii text documentation is not pretty.  Section headings, sub-sections,<br />
+paragraphs, lists and document references are all clear and discernible.<br />
+We break our lines at column 80.  Everything is readable and practical.<br />
+However, it is not esthetically pleasing.</p>
+</div>
+<div class="paragraph">
+<p>Markdown preserves the plain ascii text utility while opening the door to<br />
+a more esthetic rendering of the document.  By following a few conventions<br />
+on how section headings, lists, indenting, etc. are edited, a post-processor<br />
+can render the document to look more pleasing.  Many of these rendering<br />
+engines can work automatically in a web server or in a browser.</p>
+</div>
+<div class="sect2">
+<h3 id="_github_flavored_markdown">3.1. GitHub Flavored Markdown</h3>
+<div class="paragraph">
+<p>After our migration to git and choosing GitHub to host, the BridgePoint<br />
+team adopted GitHub Flavored Markdown <a href="../index.html%3Fp=1107.html#dr-1">[dr-1]</a>.  This markdown is clean,<br />
+unobtrusive, easy-to-learn and renders nicely.  The one drawback of<br />
+GitHub Flavored Markdown is that it does not support enforcement of<br />
+structured documentation with adherence to a specification.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img alt='asciidoc-1847113' src='../wp-content/uploads/2019/02/asciidoc-1847113.png' alt="AsciiDoc" width="50%">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_asciidoc">3.2. AsciiDoc</h3>
+<div class="paragraph">
+<p>AsciiDoc is also markdown.  It defines a clean, lightweight, unobtrusive<br />
+set of conventions for discreetly tagging the elements in a plain text<br />
+document.  Rendering engines exist that render beautifully.</p>
+</div>
+<div class="paragraph">
+<p>AsciiDoc establishes a stronger requirement for <em>well-formedness</em> over<br />
+other markdown systems.  AsciiDoc wants your document to follow rules.<br />
+For example, AsciiDoc insists that a section can contain a sub-section<br />
+which can contain a sub-sub-section.  AsciiDoc rendering will complain<br />
+if your document has a section which attempts to directly contain a<br />
+sub-sub-section (skipping the intermediate sub-section level).</p>
+</div>
+<div class="paragraph">
+<p>By enforcing well-formedness, the option opens to access the capabilities<br />
+of a full-featured document processing system.  In the case of AsciiDoc<br />
+the underlying document type definition (DTD) comes from DocBook.</p>
+</div>
+<div class="paragraph">
+<p>The BridgePoint team is migrating from GitHub Flavored Markdown to<br />
+AsciiDoc for our engineering notes.  And because all of the features of<br />
+DocBook are accessible from a markdown format, the team plans to employ<br />
+AsciiDoc for the user facing documentation within the tool itself such<br />
+as User Guides, Help Files and Methodology Training Materials.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img alt='asciidoctor-4880234' src='../wp-content/uploads/2019/02/asciidoctor-4880234.png' alt="Asciidoctor" width="75%">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_document_references">4. Document References</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a id="dr-1"></a> <a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown</a></p>
+</li>
+<li>
+<p><a id="dr-2"></a> <a href="http://asciidoc.org/">AsciiDoc</a></p>
+</li>
+<li>
+<p><a id="dr-3"></a> <a href="https://asciidoctor.org/">Asciidoctor</a></p>
+</li>
+</ol>
+</div>
+<hr>
+<div class="paragraph">
+<p>This work is licensed under the Creative Commons CC0 License</p>
+</div>
+<hr>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2019-02-08 15:35:13 EST
+</div>
+</div>
+<p></body><br />
+</html></p>
