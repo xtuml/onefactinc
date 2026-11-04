@@ -1,0 +1,24 @@
+---
+title: "Semantic Steps"
+permalink: /semantic-steps/
+source_url: "https://onefact.net/semantic-steps/"
+---
+
+<p><a href="https://onefact.net/wp-content/uploads/2015/08/steps-up.jpg"><img fetchpriority="high" fetchpriority="high" alt='steps-up-300x300-2175475' class=" size-medium wp-image-376 alignleft" src="https://onefact.net/wp-content/uploads/2015/08/steps-up-300x300-2175475.jpg' alt="steps-up" width="300" height="300" /></a>In a previous post we explored three layers of a UML tool: <em>application</em> (top), <em>semantic</em> (middle) and <em>technology</em> (bottom).  These three layers influence one another but also enjoy a measure of modular independence from one another.  Changes can be made in one layer without disrupting other layers.</p>
+<p>The middle semantic layer houses the metamodel.  Let us explore making modifications to the semantic metamodel without disturbing the modeling application (drawing, organizing, versioning, building, etc.) or changing technology (Eclipse, java, file formats, etc.).</p>
+<p>The xtUML (then Shlaer-Mellor) metamodel predates UML.  In recent years, as new functionality has been added to BridgePoint, conformance to UML has informed the metamodeling choices.  But is it possible to modify the xtUML metamodel <em>in place</em> without breaking the tool functionality?  Can UML (fUML and UML2) compliance be augmented in an Incremental, Always Advancing, Never Broken manner?</p>
+<figure id="attachment_381" aria-describedby="caption-attachment-381" style="width: 381px" class="wp-caption alignleft"><img alt='function_parameter-300x144-7064889' class=" wp-image-381" title="xtUML MM Function and Parameter" src="https://onefact.net/wp-content/uploads/2015/08/function_parameter-300x144-7064889.png' alt="function_parameter" width="381" height="183" /><figcaption id="caption-attachment-381" class="wp-caption-text">xtUML MM Function and Parameter</figcaption></figure>
+<p>Let us explore an example.  A suboptimal subsection of the xtUML metamodel involves the model of action body parameters.  This metamodel fragment is unnecessarily duplicated for each flavor of action body.  As xtUML  expanded and grew in functionality, such as support for class operations and component messaging, the passed argument model from functions was simply copied into each new subsystem with some renaming of classes and renumbering of associations.  The pattern of handling passed parameters is repeated in the metamodel.  It would be nice to refactor and consolidate these fragments of the metamodel.</p>
+<figure id="attachment_380" aria-describedby="caption-attachment-380" style="width: 228px" class="wp-caption alignright"><img alt='operation_parameter-208x300-1532009' class=" wp-image-380" title="xtUML MM Operation and Parameter" src="https://onefact.net/wp-content/uploads/2015/08/operation_parameter-208x300-1532009.png' alt="operation_parameter" width="228" height="329" /><figcaption id="caption-attachment-380" class="wp-caption-text">xtUML MM Operation and Parameter (notice similarity/duplication)</figcaption></figure>
+<p>Let us think more about making this improvement while simultaneously increasing the compliance and commonality with UML.</p>
+<p>To accomplish this, the semantic middle layer can be modified to <em>add</em> a segment of the UML metamodel that supports parameter passing.  The modification involves the following steps&#8230;</p>
+<p>outline of steps:<br />
+1.  adding UML segment to overall metamodel<br />
+2.  adding population of UML segment to the model editing and loading operations<br />
+3a.  replacing execution of xtUML segment for UML portion in Verifier<br />
+3b.  replacing translation of xtUML portions with UML bits for model compilers<br />
+4.  obsoleting the xtUML segment</p>
+<p>As a model is being edited or loaded, <em>populator</em> operations are called.  These routines validate the input model data and create instances of the metamodel elements.  The populator functions link the metamodel instances across the class model associations.</p>
+<p>The key is to add functionality and test it while existing support remains in place.  Only when the newly added functionality is as good or better than the existing functionality will removal of the existing segment be considered.</p>
+<p>It is reasonable to author or modify concurrent versions of these populators that create and relate the newly added segment of metamodel (e.g. UML support of passed parameters).  At this point both xtUML and UML representations of the functionality exist concurrently.  After tool functionality uses the new metamodel segment and stops using the old metamodel segment, the old can be pruned away.  This approach allows the existing tool to continue operating smoothly while adding, improving and validating updated capability.  The Semantic Layer can indeed be incrementally advanced in-place without breaking.</p>
+<p>&nbsp;</p>
