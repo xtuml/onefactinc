@@ -1,0 +1,31 @@
+---
+title: "Model API?"
+archival_date_unknown: true
+permalink: /model-api/
+source_url: "https://onefact.net/model-api/"
+---
+
+<div><strong><a href="https://onefact.net/wp-content/uploads/2016/06/api.png"><img alt='api-6443822' class="alignnone wp-image-768" src='../wp-content/uploads/2016/06/api-6443822.png' alt="api" width="200" height="147" /></a><a href="https://onefact.net/wp-content/uploads/2016/06/whatapi.png"><img alt='whatapi-1197716' class="alignnone wp-image-767" src='../wp-content/uploads/2016/06/whatapi-1197716.png' alt="whatapi" width="162" height="135" /></a></strong></div>
+<div><strong>API and MC-Java</strong></div>
+<div></div>
+<div>The API to the xtUML metamodel is simply the xtUML metamodel viewed as an xtUML model.  Applications that wish to interface are written in xtUML and operate on the metamodel as they would any other xtUML application model.</div>
+<div></div>
+<div>Almost nobody access the xtUML metamodel with native hand-craft Java.  Of course this is supported, but it is far easier and more portable to build models.</div>
+<div></div>
+<div>xtUML action language supplies model-level statements that support:</div>
+<ul>
+<li>create instance</li>
+<li>delete instance</li>
+<li>select one/any/many from instances of // table scans</li>
+<li>select one/any/many related by // traversal of relationship chains</li>
+<li>attribute read/write // as action language expressions</li>
+<li>etc.</li>
+</ul>
+<div></div>
+<div>There is a Java API &#8220;under the hood in the architecture&#8221;, but small amounts of code use it.  To interface with the tool, developers build xtUML models that operate against the xtUML metamodel (using action language) and then translate the models with MC-Java.</div>
+<div></div>
+<div>The &#8220;Java API&#8221; will change when we update MC-Java to generate EMF-aware Java.  Once we do this, EMF &#8220;stuff&#8221; (hand-craft Java and EMF toolery) can operate against the lower level API.  However, developers will continue to interface with the metamodel using xtUML at the model level.  This is cool; all this architectural change, and the user API does not change!</div>
+<div></div>
+<div>Upon introducing EMF, MC-Java will be modified so that the xtUML metamodel structure will translate into classes based on <em>EObject</em> rather than simple native Java classes.</div>
+<div></div>
+<div>MC-Java action language translation will be modified so that the &#8216;create&#8217; statement generates the appropriate EMF constructor rather than the custom native Java constructor used today.  The &#8216;select&#8217; statements will translate into EMF &#8216;find&#8217; (or whatever EMF does to search instances of a particular class).  The relationship traversal will be interesting; xtUML action language supports traversal across several relationships of varying multiplicity and conditionality in a single statement.  So, we will likely generate methods on classes that support selecting <em>through</em> them (resulting in an instance or instance set).</div>
