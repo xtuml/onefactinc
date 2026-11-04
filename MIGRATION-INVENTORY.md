@@ -28,7 +28,7 @@ The capture also contains 143 root-level `index.html?p=...` files. These are Wor
   - Lafayette Business Expo — publication date not yet verified
   - Where Does the Name “One Fact” Come From? — publication date not yet verified
   - PIC Members — publication date not yet verified
-  - Saab Coming to West Lafayette — publication date not yet verified
+  - Saab Coming to West Lafayette — May 8, 2019
   - xtUML Days 2019 UK (1) — publication date not yet verified
 
 

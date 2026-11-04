@@ -56,7 +56,7 @@ The links below are titles discovered in the archived blog pagination. Some may 
 - **Migrated:** [Find a Bug; Fix a Bug](/find-a-bug-fix-a-bug/) — publication date not yet verified
 - xtUML Days 2019 UK
 - **Migrated:** [AUTOSAR](/autosar/) — publication date not yet verified
-- Saab Coming to West Lafayette
+- **Migrated:** [Saab Coming to West Lafayette](/saab-coming-to-west-lafayette/) — May 8, 2019; announcement of Saab's planned West Lafayette site near Purdue University and One Fact.
 
 ### Page 6
 - State Diagram, State Table
