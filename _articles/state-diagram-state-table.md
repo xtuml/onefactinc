@@ -9,18 +9,16 @@ thumbnail: "/assets/images/std-1024x724-5968238.png"
 
 A state transition diagram is a graphical representation of a finite-state machine in an executable UML model. States appear as rounded boxes, and transitions appear as arrows between them. Events label the transitions; activities can be expressed in action language within states or on transitions.
 
-<figure>
-  <img src="{{ '/assets/images/std-1024x724-5968238.png' | relative_url }}" alt="Example state transition diagram showing states and event-labeled transitions" loading="lazy">
-  <figcaption>A state transition diagram.</figcaption>
-</figure>
+![Example state transition diagram showing states and event-labeled transitions]({{ '/assets/images/std-1024x724-5968238.png' | relative_url }})
+
+*A state transition diagram.*
 
 A **state event matrix (SEM)**, also called a state transition table, represents the same information in tabular form. States form the rows, events form the columns, and the cells describe the resulting transitions.
 
 The table also makes it possible to specify what happens for state/event combinations that do not cause a transition. An event can be explicitly ignored, or marked as an error with a “Can't Happen” designation. This makes the model's handling of otherwise ambiguous or unexpected events visible.
 
-<figure>
-  <img src="{{ '/assets/images/sem-1024x220-1908964.png' | relative_url }}" alt="State event matrix showing states as rows and events as columns" loading="lazy">
-  <figcaption>A state event matrix for the same behavior.</figcaption>
-</figure>
+![State event matrix showing states as rows and events as columns]({{ '/assets/images/sem-1024x220-1908964.png' | relative_url }})
+
+*A state event matrix for the same behavior.*
 
 The diagram and table are complementary views of the same state-machine behavior. The diagram emphasizes the flow between states; the table provides a systematic view of every state/event combination.
