@@ -1,0 +1,18 @@
+---
+title: "Panda – Open Source Development"
+date: 2020-05-12
+description: "An example of project sponsorship supporting open-source BridgePoint development."
+permalink: /panda-open-source-development/
+source_url: "https://xtuml.github.io/onefactnet/panda-open-source-development/"
+thumbnail: "/assets/images/panda-1979797.jpg"
+---
+
+BridgePoint is open-source software. It is free, but open-source software is not free like “free beer”; it is more like a “free puppy.” Like a puppy, open-source software requires care and maintenance.
+
+Members of the xtUML community contribute to BridgePoint by finding and fixing bugs, developing features, and improving documentation. Other community members fund this work, often through companies using BridgePoint in their engineering processes.
+
+One such project was **Panda**, active in May 2020. The project specification was also open source:
+
+- [Panda project notes in BridgePoint](https://github.com/xtuml/bridgepoint/blob/master/doc-bridgepoint/notes/11937_epoch/11937_epoch_ant.adoc)
+
+![Panda project image]({{ '/assets/images/panda-1979797.jpg' | relative_url }})
