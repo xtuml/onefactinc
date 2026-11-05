@@ -19,8 +19,8 @@ permalink: /blog/
       {% assign undated_articles = site.articles | where_exp: "article", "article.archival_date_unknown == true" | sort: "title" %}
       {% for article in dated_articles %}
       {% assign thumbnail_path = article.thumbnail %}
-      <article class="article-list-item{% if thumbnail_path != empty %} has-thumbnail{% endif %}">
-        {% if thumbnail_path != empty %}<a class="article-list-thumbnail-link" href="{{ article.url | relative_url }}" aria-label="Read {{ article.title | escape }}"><img class="article-list-thumbnail" src="{{ thumbnail_path | relative_url }}" alt="" loading="lazy"></a>{% endif %}
+      <article class="article-list-item">
+        <a class="article-list-thumbnail-link" href="{{ article.url | relative_url }}" aria-label="Read {{ article.title | escape }}"><img class="article-list-thumbnail" src="{% if thumbnail_path != empty %}{{ thumbnail_path | relative_url }}{% else %}{{ '/assets/images/article-placeholder.svg' | relative_url }}{% endif %}" alt="" loading="lazy"></a>
         <div class="article-list-copy">
           <p class="article-date"><time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%B %-d, %Y" }}</time></p>
           <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
@@ -31,8 +31,8 @@ permalink: /blog/
       {% endfor %}
       {% for article in undated_articles %}
       {% assign thumbnail_path = article.thumbnail %}
-      <article class="article-list-item{% if thumbnail_path != empty %} has-thumbnail{% endif %}">
-        {% if thumbnail_path != empty %}<a class="article-list-thumbnail-link" href="{{ article.url | relative_url }}" aria-label="Read {{ article.title | escape }}"><img class="article-list-thumbnail" src="{{ thumbnail_path | relative_url }}" alt="" loading="lazy"></a>{% endif %}
+      <article class="article-list-item">
+        <a class="article-list-thumbnail-link" href="{{ article.url | relative_url }}" aria-label="Read {{ article.title | escape }}"><img class="article-list-thumbnail" src="{% if thumbnail_path != empty %}{{ thumbnail_path | relative_url }}{% else %}{{ '/assets/images/article-placeholder.svg' | relative_url }}{% endif %}" alt="" loading="lazy"></a>
         <div class="article-list-copy">
           <h2><a href="{{ article.url | relative_url }}">{{ article.title | escape }}</a></h2>
           {% if article.description %}<p>{{ article.description | escape }}</p>{% endif %}
