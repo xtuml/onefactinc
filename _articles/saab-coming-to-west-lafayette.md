@@ -7,9 +7,7 @@ permalink: /saab-coming-to-west-lafayette/
 source_url: "https://onefact.net/saab-coming-to-west-lafayette/"
 ---
 
-<figure>
-  <img src="{{ '/assets/images/Saab_logo-700x225-300x96-1792074.png' | relative_url }}" alt="Saab logo">
-</figure>
+![Saab logo]({{ '/assets/images/Saab_logo-700x225-300x96-1792074.png' | relative_url }})
 
 Various divisions within Saab have long been practitioners of executable modeling. On May 8, 2019, Saab announced plans to open a site in the United States near Purdue University and One Fact's headquarters in West Lafayette, Indiana.
 
@@ -20,9 +18,8 @@ For additional context, the original article linked to these announcements and r
 - [Purdue University press release](https://www.purdue.edu/newsroom/releases/2019/Q2/saabs-global-defense-and-security-company-lands-in-indiana,-to-open-site-near-purdue-university.html)
 - [West Lafayette local reporting](https://www.wlfi.com/content/news/Saab-and-Purdue-announce-plans-to-open-site-near-University-509638591.html)
 
-<figure>
-  <img src="{{ '/assets/images/saab-facilityLO-1205570.jpg' | relative_url }}" alt="Rendering of Saab's planned West Lafayette facility">
-  <figcaption>Saab's initial focus for the West Lafayette site was expected to be aeronautical engineering, including major structural sections and final assembly of Saab components for the T-X advanced jet trainer developed with Boeing for the United States Air Force. Image provided by Saab.</figcaption>
-</figure>
+![Rendering of Saab's planned West Lafayette facility]({{ '/assets/images/saab-facilityLO-1205570.jpg' | relative_url }})
+
+*Saab's initial focus for the West Lafayette site was expected to be aeronautical engineering, including major structural sections and final assembly of Saab components for the T-X advanced jet trainer developed with Boeing for the United States Air Force. Image provided by Saab.*
 
 *Historical note: This article records the 2019 announcement and its expectations at that time; it is not a statement of the facility's current operations.*

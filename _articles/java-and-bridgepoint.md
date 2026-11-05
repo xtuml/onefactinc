@@ -5,6 +5,7 @@ description: "A 2019 BridgePoint packaging change prompted by Oracle Java licens
 permalink: /java-and-bridgepoint/
 source_url: "https://xtuml.github.io/onefactnet/java-and-bridgepoint/"
 ---
+
 In 2019, Oracle changed the licensing terms for its Java distribution. BridgePoint had previously been packaged with that version of Java for consistency and convenience. The change meant the xtUML development team could no longer continue bundling that runtime.
 
 The team therefore removed the bundled Java Runtime Environment (JRE) from BridgePoint and stopped distributing a Java runtime with the tool. Users would configure an appropriate Java runtime separately.

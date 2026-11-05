@@ -15,17 +15,15 @@ Another rule is **accelerated event to self**: events sent from an instance to i
 
 A runtime architecture that implements these rules can itself be modeled using xtUML, just like any other subject matter. The following example shows a modeled runtime dispatcher.
 
-<figure>
-  <img src="{{ '/assets/images/smarch-1024x741-4769662.png' | relative_url }}" alt="Example Shlaer-Mellor runtime architecture" loading="lazy">
-  <figcaption>Example Shlaer-Mellor runtime dispatcher architecture.</figcaption>
-</figure>
+![Example Shlaer-Mellor runtime architecture]({{ '/assets/images/smarch-1024x741-4769662.png' | relative_url }})
+
+*Example Shlaer-Mellor runtime dispatcher architecture.*
 
 The dispatcher can be represented with a class diagram and a state machine describing its behavior:
 
-<figure>
-  <img src="{{ '/assets/images/dispatcher-1024x919-3238312.png' | relative_url }}" alt="Class state machine for a runtime dispatcher" loading="lazy">
-  <figcaption>Dispatcher class state machine.</figcaption>
-</figure>
+![Class state machine for a runtime dispatcher]({{ '/assets/images/dispatcher-1024x919-3238312.png' | relative_url }})
+
+*Dispatcher class state machine.*
 
 The important distinction is between the runtime's required semantics and any particular implementation. The rules define the behavior that must be realized; a modeled dispatcher is one way to reason about and implement that behavior.
 
