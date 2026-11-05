@@ -1,0 +1,27 @@
+---
+title: "xtUML Days 2020 Save-the-Date"
+date: 2020-04-01
+description: "An archived announcement for the planned November 2020 xtUML Days UK event."
+permalink: /xtuml-days-2020-save-the-date/
+source_url: "https://xtuml.github.io/onefactnet/xtuml-days-2020-save-the-date/"
+archive_note: "Historical event announcement; event date has passed."
+thumbnail: "/assets/images/xday2020ukbanner-1024x237-7439377.png"
+---
+
+![xtUML Days 2020 UK banner]({{ '/assets/images/xday2020ukbanner-1024x237-7439377.png' | relative_url }})
+
+*xtUML Days 2020 UK.*
+
+Dear Shlaer-Mellor xtUML Community,
+
+In April 2020, the conference committee announced plans for xtUML Days 2020 UK on November 4–6 in Portsmouth, UK, while also exploring additional ways for the community to connect. Stephen Mellor was announced as the keynote speaker.
+
+This is retained as a historical announcement, not as a current event notice. The original announcement linked to [the xtUML Days 2020 event information](https://xtuml.github.io/xtuml.github.io/xday/xday2020.html).
+
+Sincerely,
+
+The conference committee — Dave, Dave, Emily, and Cort
+
+![Portsmouth, England]({{ '/assets/images/portsmouth-1024x576-4681241.jpg' | relative_url }})
+
+*Portsmouth, the planned host city.*
