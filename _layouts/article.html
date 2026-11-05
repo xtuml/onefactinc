@@ -11,13 +11,7 @@ layout: default
   </header>
   <div class="section">
     <div class="container narrow article-content">
-      {% assign first_content_line = content | strip | split: "\n" | first | strip %}
-      {% if first_content_line contains "thumbnail:" %}
-        {% assign clean_content = content | remove_first: first_content_line %}
-        {{ clean_content }}
-      {% else %}
-        {{ content }}
-      {% endif %}
+      {{ content }}
       <p><a href="{{ '/blog/' | relative_url }}">← Back to all articles</a></p>
     </div>
   </div>
