@@ -18,9 +18,7 @@ permalink: /blog/
       {% assign dated_articles = site.articles | where_exp: "article", "article.archival_date_unknown != true" | sort: "date" | reverse %}
       {% assign undated_articles = site.articles | where_exp: "article", "article.archival_date_unknown == true" | sort: "title" %}
       {% for article in dated_articles %}
-      {% assign thumbnail_probe = article.content | strip_html | strip | split: "\n" | first | strip %}
-      {% assign legacy_thumbnail = thumbnail_probe | remove_first: "thumbnail:" | remove: '"' | strip %}
-      {% assign thumbnail_path = article.thumbnail | default: legacy_thumbnail %}
+      {% assign thumbnail_path = article.thumbnail %}
       <article class="article-list-item{% if thumbnail_path != empty %} has-thumbnail{% endif %}">
         {% if thumbnail_path != empty %}<a class="article-list-thumbnail-link" href="{{ article.url | relative_url }}" aria-label="Read {{ article.title | escape }}"><img class="article-list-thumbnail" src="{{ thumbnail_path | relative_url }}" alt="" loading="lazy"></a>{% endif %}
         <div class="article-list-copy">
@@ -32,9 +30,7 @@ permalink: /blog/
       </article>
       {% endfor %}
       {% for article in undated_articles %}
-      {% assign thumbnail_probe = article.content | strip_html | strip | split: "\n" | first | strip %}
-      {% assign legacy_thumbnail = thumbnail_probe | remove_first: "thumbnail:" | remove: '"' | strip %}
-      {% assign thumbnail_path = article.thumbnail | default: legacy_thumbnail %}
+      {% assign thumbnail_path = article.thumbnail %}
       <article class="article-list-item{% if thumbnail_path != empty %} has-thumbnail{% endif %}">
         {% if thumbnail_path != empty %}<a class="article-list-thumbnail-link" href="{{ article.url | relative_url }}" aria-label="Read {{ article.title | escape }}"><img class="article-list-thumbnail" src="{{ thumbnail_path | relative_url }}" alt="" loading="lazy"></a>{% endif %}
         <div class="article-list-copy">
