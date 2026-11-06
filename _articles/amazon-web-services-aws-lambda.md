@@ -6,6 +6,7 @@ permalink: /amazon-web-services-aws-lambda/
 source_url: "https://xtuml.github.io/onefactnet/amazon-web-services-aws-lambda/"
 thumbnail: "/assets/images/awslambda-1024x360-4972522.jpeg"
 ---
+
 Cloud platforms such as Amazon Web Services make it possible to deploy code without provisioning and managing servers directly, scaling from zero to substantial demand.
 
 xtUML and BridgePoint support modeling an application independently of its deployment architecture. Code can be generated for embedded targets, cloud environments, or a combination of both.
@@ -14,9 +15,8 @@ At the time of this article, BridgePoint included capability to generate Java ta
 
 The original post included a [demonstration video](https://www.youtube.com/watch?v=nY984Yev5GI).
 
-<figure>
-  <img src="{{ '/assets/images/awslambda-1024x360-4972522.jpeg' | relative_url }}" alt="AWS Lambda demonstration architecture" loading="lazy">
-  <figcaption>Illustration from the original AWS Lambda demonstration.</figcaption>
-</figure>
+![AWS Lambda demonstration architecture]({{ '/assets/images/awslambda-1024x360-4972522.jpeg' | relative_url }})
+
+*Illustration from the original AWS Lambda demonstration.*
 
 *Historical note: this article was published in December 2018. AWS services, BridgePoint generators, and deployment practices have changed since then; consult current documentation before applying the example.*
