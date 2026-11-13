@@ -1,7 +1,7 @@
 title: One Fact
 description: Systems modeling, embedded control, and xtUML expertise.
-url: "https://xtuml.github.io"
-baseurl: "/onefactinc"
+url: "https://onefact.net"
+baseurl: ""
 
 markdown: kramdown
 permalink: pretty
