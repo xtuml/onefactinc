@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Systems thinking. Practical engineering.
-description: One Fact provides expertise in systems modeling, embedded control, and xtUML.
+title: One Fact
+description: One Fact specializes in systems modeling, embedded control, and Shlaer-Mellor xtUML.
 ---
 
 <section class="hero">
